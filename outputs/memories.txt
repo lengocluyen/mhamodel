@@ -1,0 +1,75 @@
+Executing Case 7: Running Prediction with all criteria, with single context: Lockdown
+AFM - RMSE: 0.9765, MAE: 0.8111, Time: 30.40s, CPU: 0.00%, Memory: 2170.40MB
+AutoInt - RMSE: 0.8036, MAE: 0.6205, Time: 14.30s, CPU: -0.10%, Memory: 1.16MB
+CCPM - RMSE: 1.0761, MAE: 0.8529, Time: 22.32s, CPU: 0.00%, Memory: 614.43MB
+DCN - RMSE: 0.7924, MAE: 0.6095, Time: 18.94s, CPU: -0.10%, Memory: 11.86MB
+DeepFM - RMSE: 0.8076, MAE: 0.6251, Time: 15.85s, CPU: 0.00%, Memory: 4.26MB
+DIFM - RMSE: 1.2084, MAE: 0.9507, Time: 19.88s, CPU: 0.00%, Memory: 14.84MB
+FiBiNET - RMSE: 0.8677, MAE: 0.6496, Time: 26.12s, CPU: -0.10%, Memory: 13.08MB
+NFM - RMSE: 0.8213, MAE: 0.6363, Time: 16.00s, CPU: 0.10%, Memory: 3.45MB
+ONN - RMSE: 1.0866, MAE: 0a.8085, Time: 32.52s, CPU: -0.10%, Memory: 21.66MB
+PNN - RMSE: 0.8057, MAE: 0.6105, Time: 13.62s, CPU: -0.20%, Memory: 15.99MB
+WDL - RMSE: 0.8059, MAE: 0.6235, Time: 15.67s, CPU: 0.00%, Memory: 2.11MB
+xDeepFM - RMSE: 0.8073, MAE: 0.6247, Time: 21.63s, CPU: 0.00%, Memory: 43.10MB
+IFM - RMSE: 1.1170, MAE: 0.8836, Time: 16.06s, CPU: 0.00%, Memory: 15.54MB
+MLR - RMSE: 0.8596, MAE: 0.6820, Time: 26.11s, CPU: -0.10%, Memory: 8.93MB
+AFN - RMSE: 2.7532, MAE: 2.3593, Time: 19.98s, CPU: -0.10%, Memory: 71.39MB
+MultiHeadAttentionModel - RMSE: 0.7978, MAE: 0.5876, Time: 21.01s, CPU: 0.30%, Memory: 1.23MB
+==============================================================================================
+
+Executing Case 8: Running Prediction with single criteria: GroupApp, with single context: class
+AFM - RMSE: 1.0434, MAE: 0.8757, Time: 28.25s, CPU: -0.10%, Memory: 2184.12MB
+AutoInt - RMSE: 0.8261, MAE: 0.6444, Time: 15.38s, CPU: 0.20%, Memory: 0.68MB
+CCPM - RMSE: 1.1406, MAE: 0.9081, Time: 22.20s, CPU: 0.10%, Memory: 624.71MB
+DCN - RMSE: 0.8142, MAE: 0.6305, Time: 11.50s, CPU: 0.00%, Memory: 7.92MB
+DeepFM - RMSE: 0.8170, MAE: 0.6338, Time: 10.97s, CPU: 0.20%, Memory: 9.82MB
+DIFM - RMSE: 1.2074, MAE: 0.9636, Time: 15.32s, CPU: 0.00%, Memory: 13.61MB
+FiBiNET - RMSE: 0.8774, MAE: 0.6694, Time: 24.07s, CPU: 0.00%, Memory: 18.05MB
+NFM - RMSE: 0.8631, MAE: 0.6607, Time: 11.17s, CPU: 0.00%, Memory: 3.66MB
+ONN - RMSE: 1.1196, MAE: 0.8307, Time: 23.63s, CPU: 0.00%, Memory: 3.80MB
+PNN - RMSE: 0.8814, MAE: 0.6573, Time: 9.65s, CPU: -0.30%, Memory: 5.53MB
+WDL - RMSE: 0.8164, MAE: 0.6328, Time: 11.99s, CPU: 0.00%, Memory: 5.75MB
+xDeepFM - RMSE: 0.8125, MAE: 0.6305, Time: 14.26s, CPU: -0.30%, Memory: 43.38MB
+IFM - RMSE: 1.1851, MAE: 0.9406, Time: 10.65s, CPU: 0.00%, Memory: 9.94MB
+MLR - RMSE: 0.8971, MAE: 0.7302, Time: 18.16s, CPU: -0.10%, Memory: 3.12MB
+AFN - RMSE: 2.7532, MAE: 2.3593, Time: 12.10s, CPU: -0.20%, Memory: 81.31MB
+MultiHeadAttentionModel - RMSE: 0.8277, MAE: 0.5928, Time: 14.71s, CPU: 0.20%, Memory: 4.89MB
+==============================================================================================
+
+Executing Case 13: Running Prediction with single criteria: GroupEase, with single context: Semester
+AFM - RMSE: 1.0995, MAE: 0.9040, Time: 26.97s, CPU: 0.00%, Memory: 2193.44MB
+AutoInt - RMSE: 0.8851, MAE: 0.6893, Time: 18.47s, CPU: 0.00%, Memory: 2.43MB
+CCPM - RMSE: 1.2686, MAE: 0.9929, Time: 18.77s, CPU: -0.10%, Memory: 611.30MB
+DCN - RMSE: 0.8817, MAE: 0.6857, Time: 12.59s, CPU: 0.00%, Memory: 0.28MB
+DeepFM - RMSE: 0.8833, MAE: 0.6882, Time: 11.39s, CPU: 0.00%, Memory: 4.20MB
+DIFM - RMSE: 1.3693, MAE: 1.0471, Time: 12.03s, CPU: 0.10%, Memory: 4.86MB
+FiBiNET - RMSE: 0.9732, MAE: 0.7447, Time: 17.33s, CPU: 0.00%, Memory: 12.23MB
+NFM - RMSE: 0.9055, MAE: 0.7079, Time: 10.54s, CPU: 0.00%, Memory: 8.54MB
+ONN - RMSE: 1.1809, MAE: 0.8886, Time: 22.97s, CPU: 0.30%, Memory: 9.68MB
+PNN - RMSE: 0.9350, MAE: 0.7231, Time: 8.36s, CPU: 0.10%, Memory: 3.64MB
+WDL - RMSE: 0.8818, MAE: 0.6869, Time: 11.96s, CPU: 0.00%, Memory: 4.21MB
+xDeepFM - RMSE: 0.8782, MAE: 0.6817, Time: 11.67s, CPU: 0.10%, Memory: 35.83MB
+IFM - RMSE: 1.2258, MAE: 0.9693, Time: 12.51s, CPU: 0.00%, Memory: 7.61MB
+MLR - RMSE: 0.9652, MAE: 0.7832, Time: 17.93s, CPU: 0.10%, Memory: 8.30MB
+AFN - RMSE: 2.7532, MAE: 2.3593, Time: 13.61s, CPU: -0.10%, Memory: 75.28MB
+MultiHeadAttentionModel - RMSE: 0.8565, MAE: 0.6170, Time: 13.64s, CPU: 0.10%, Memory: 6.37MB
+==============================================================================================
+
+Executing Case 16: Running Prediction with single criteria: GroupEase, with single context: Lockdown
+AFM - RMSE: 1.0775, MAE: 0.9036, Time: 35.75s, CPU: -0.10%, Memory: 2206.64MB
+AutoInt - RMSE: 0.8897, MAE: 0.6960, Time: 19.73s, CPU: 0.10%, Memory: 1.64MB
+CCPM - RMSE: 1.1788, MAE: 0.9371, Time: 23.47s, CPU: -0.10%, Memory: 610.74MB
+DCN - RMSE: 0.8821, MAE: 0.6868, Time: 19.81s, CPU: 0.10%, Memory: 0.18MB
+DeepFM - RMSE: 0.8850, MAE: 0.6879, Time: 16.62s, CPU: 0.30%, Memory: 19.86MB
+DIFM - RMSE: 1.3077, MAE: 1.0266, Time: 19.19s, CPU: 0.10%, Memory: 4.38MB
+FiBiNET - RMSE: 0.9466, MAE: 0.7288, Time: 30.20s, CPU: -0.10%, Memory: 11.41MB
+NFM - RMSE: 0.9313, MAE: 0.7141, Time: 15.27s, CPU: 0.00%, Memory: 13.29MB
+ONN - RMSE: 1.2178, MAE: 0.9052, Time: 35.60s, CPU: -0.10%, Memory: 21.27MB
+PNN - RMSE: 0.9517, MAE: 0.7224, Time: 11.68s, CPU: -0.10%, Memory: 9.22MB
+WDL - RMSE: 0.8843, MAE: 0.6874, Time: 16.16s, CPU: 0.00%, Memory: 2.25MB
+xDeepFM - RMSE: 0.8788, MAE: 0.6827, Time: 13.52s, CPU: 0.30%, Memory: 51.16MB
+IFM - RMSE: 1.2194, MAE: 0.9654, Time: 13.34s, CPU: 0.10%, Memory: 6.61MB
+MLR - RMSE: 0.9661, MAE: 0.7843, Time: 20.10s, CPU: 0.10%, Memory: 12.75MB
+AFN - RMSE: 2.7532, MAE: 2.3593, Time: 12.19s, CPU: -0.20%, Memory: 75.43MB
+MultiHeadAttentionModel - RMSE: 0.8811, MAE: 0.6398, Time: 14.00s, CPU: 0.00%, Memory: 10.40MB
+==============================================================================================
