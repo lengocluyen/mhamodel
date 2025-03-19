@@ -7,7 +7,7 @@ DeepFM - RMSE: 0.8076, MAE: 0.6251, Time: 15.85s, CPU: 0.00%, Memory: 4.26MB
 DIFM - RMSE: 1.2084, MAE: 0.9507, Time: 19.88s, CPU: 0.00%, Memory: 14.84MB
 FiBiNET - RMSE: 0.8677, MAE: 0.6496, Time: 26.12s, CPU: -0.10%, Memory: 13.08MB
 NFM - RMSE: 0.8213, MAE: 0.6363, Time: 16.00s, CPU: 0.10%, Memory: 3.45MB
-ONN - RMSE: 1.0866, MAE: 0a.8085, Time: 32.52s, CPU: -0.10%, Memory: 21.66MB
+ONN - RMSE: 1.0866, MAE: 0.8085, Time: 32.52s, CPU: -0.10%, Memory: 21.66MB
 PNN - RMSE: 0.8057, MAE: 0.6105, Time: 13.62s, CPU: -0.20%, Memory: 15.99MB
 WDL - RMSE: 0.8059, MAE: 0.6235, Time: 15.67s, CPU: 0.00%, Memory: 2.11MB
 xDeepFM - RMSE: 0.8073, MAE: 0.6247, Time: 21.63s, CPU: 0.00%, Memory: 43.10MB

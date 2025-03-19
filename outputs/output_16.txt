@@ -1,0 +1,2789 @@
+2025-03-09 12:32:10.566441: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-09 12:32:12.734526: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-03-09 12:32:20.581516: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2025-03-09 12:32:20.585485: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2025-03-09 12:32:20.585903: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+Shape of df_ratings before merge: (5230, 9)
+Shape of group_df: (395, 2)
+Shape of group_size_df: (143, 2)
+Shape of group_ratings: (1117, 9)
+df_rating:     UserID  Item Class  ... GroupClass GroupSemester  GroupLockdown
+0    1173    28    DA  ...         DA          Fall            PRE
+1    1173    28    DA  ...         DA          Fall            PRE
+2    1173    28    DA  ...         DA          Fall            PRE
+3    1173    41    DA  ...         DA          Fall            PRE
+4    1173    41    DA  ...         DA          Fall            PRE
+
+[5 rows x 18 columns]
+Rows with NaN values in df_ratings:
+      UserID  Item Class  ... GroupClass GroupSemester  GroupLockdown
+4422    1222    16    DB  ...         DB          Fall            POS
+4472    1350    18    DB  ...         DB          Fall            POS
+
+[2 rows x 18 columns]
+Rows with NaN values in df_ratings:
+Empty DataFrame
+Columns: [UserID, Item, Class, Semester, Lockdown, App, Data, Ease, Rating, GroupID, Size, GroupRating, GroupApp, GroupData, GroupEase, GroupClass, GroupSemester, GroupLockdown]
+Index: []
+df_rating    UserID  Item Class  ... GroupClass GroupSemester  GroupLockdown
+0    1173    28    DA  ...         DA          Fall            PRE
+1    1173    28    DA  ...         DA          Fall            PRE
+2    1173    28    DA  ...         DA          Fall            PRE
+3    1173    41    DA  ...         DA          Fall            PRE
+4    1173    41    DA  ...         DA          Fall            PRE
+
+[5 rows x 18 columns]
+
+Missing values after merging:
+UserID           0
+Item             0
+Class            0
+Semester         0
+Lockdown         0
+App              0
+Data             0
+Ease             0
+Rating           0
+GroupID          0
+Size             0
+GroupRating      0
+GroupApp         0
+GroupData        0
+GroupEase        0
+GroupClass       0
+GroupSemester    0
+GroupLockdown    0
+dtype: int64
+Executing Case 16: Running Prediction with single criteria: GroupEase, with single context: Lockdown
+sparse_features ['UserID', 'Item', 'Lockdown', 'GroupID', 'GroupClass', 'GroupSemester', 'GroupLockdown']
+feat:  UserID
+feat:  Item
+feat:  Lockdown
+feat:  GroupID
+feat:  GroupClass
+feat:  GroupSemester
+feat:  GroupLockdown
+feature columns:  [SparseFeat(name='UserID', vocabulary_size=454, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='UserID', group_name='default_group'), SparseFeat(name='Item', vocabulary_size=70, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='Item', group_name='default_group'), SparseFeat(name='Lockdown', vocabulary_size=3, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='Lockdown', group_name='default_group'), SparseFeat(name='GroupID', vocabulary_size=319, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='GroupID', group_name='default_group'), SparseFeat(name='GroupClass', vocabulary_size=3, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='GroupClass', group_name='default_group'), SparseFeat(name='GroupSemester', vocabulary_size=2, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='GroupSemester', group_name='default_group'), SparseFeat(name='GroupLockdown', vocabulary_size=3, embedding_dim=4, use_hash=False, dtype='int32', embedding_name='GroupLockdown', group_name='default_group'), DenseFeat(name='App', dimension=1, dtype='float32'), DenseFeat(name='Data', dimension=1, dtype='float32'), DenseFeat(name='Ease', dimension=1, dtype='float32'), DenseFeat(name='GroupEase', dimension=1, dtype='float32')]
+
+Training and evaluating AFM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+6s - loss:  12.7284 - mse:  12.6982 - val_mse:  12.2396
+Epoch 2/50
+0s - loss:  11.6156 - mse:  11.5665 - val_mse:  11.1684
+Epoch 3/50
+0s - loss:  10.5719 - mse:  10.5118 - val_mse:  10.1714
+Epoch 4/50
+0s - loss:  9.6082 - mse:  9.6020 - val_mse:  9.2355
+Epoch 5/50
+0s - loss:  8.7011 - mse:  8.6656 - val_mse:  8.3718
+Epoch 6/50
+0s - loss:  7.8659 - mse:  7.8481 - val_mse:  7.5666
+Epoch 7/50
+0s - loss:  7.0866 - mse:  7.0637 - val_mse:  6.8235
+Epoch 8/50
+0s - loss:  6.3675 - mse:  6.3636 - val_mse:  6.1303
+Epoch 9/50
+0s - loss:  5.6956 - mse:  5.6800 - val_mse:  5.4827
+Epoch 10/50
+0s - loss:  5.0671 - mse:  5.0432 - val_mse:  4.8687
+Epoch 11/50
+0s - loss:  4.4658 - mse:  4.4465 - val_mse:  4.2834
+Epoch 12/50
+0s - loss:  3.8935 - mse:  3.8912 - val_mse:  3.7169
+Epoch 13/50
+0s - loss:  3.3410 - mse:  3.3184 - val_mse:  3.1872
+Epoch 14/50
+0s - loss:  2.8352 - mse:  2.8305 - val_mse:  2.7055
+Epoch 15/50
+0s - loss:  2.3954 - mse:  2.3861 - val_mse:  2.3083
+Epoch 16/50
+0s - loss:  2.0484 - mse:  2.0297 - val_mse:  2.0039
+Epoch 17/50
+0s - loss:  1.7915 - mse:  1.7902 - val_mse:  1.7952
+Epoch 18/50
+0s - loss:  1.6277 - mse:  1.6271 - val_mse:  1.6695
+Epoch 19/50
+0s - loss:  1.5343 - mse:  1.5278 - val_mse:  1.6099
+Epoch 20/50
+0s - loss:  1.4913 - mse:  1.4878 - val_mse:  1.5811
+Epoch 21/50
+0s - loss:  1.4657 - mse:  1.4692 - val_mse:  1.5629
+Epoch 22/50
+0s - loss:  1.4434 - mse:  1.4486 - val_mse:  1.5466
+Epoch 23/50
+0s - loss:  1.4209 - mse:  1.4162 - val_mse:  1.5310
+Epoch 24/50
+0s - loss:  1.3993 - mse:  1.4007 - val_mse:  1.5154
+Epoch 25/50
+0s - loss:  1.3775 - mse:  1.3773 - val_mse:  1.5002
+Epoch 26/50
+0s - loss:  1.3562 - mse:  1.3544 - val_mse:  1.4862
+Epoch 27/50
+0s - loss:  1.3354 - mse:  1.3324 - val_mse:  1.4732
+Epoch 28/50
+0s - loss:  1.3163 - mse:  1.3165 - val_mse:  1.4613
+Epoch 29/50
+0s - loss:  1.2984 - mse:  1.3007 - val_mse:  1.4502
+Epoch 30/50
+0s - loss:  1.2816 - mse:  1.2795 - val_mse:  1.4412
+Epoch 31/50
+0s - loss:  1.2663 - mse:  1.2692 - val_mse:  1.4328
+Epoch 32/50
+0s - loss:  1.2521 - mse:  1.2542 - val_mse:  1.4246
+Epoch 33/50
+0s - loss:  1.2389 - mse:  1.2360 - val_mse:  1.4170
+Epoch 34/50
+0s - loss:  1.2265 - mse:  1.2259 - val_mse:  1.4104
+Epoch 35/50
+0s - loss:  1.2147 - mse:  1.2193 - val_mse:  1.4039
+Epoch 36/50
+0s - loss:  1.2035 - mse:  1.2038 - val_mse:  1.3980
+Epoch 37/50
+0s - loss:  1.1931 - mse:  1.1946 - val_mse:  1.3937
+Epoch 38/50
+0s - loss:  1.1833 - mse:  1.1897 - val_mse:  1.3877
+Epoch 39/50
+0s - loss:  1.1737 - mse:  1.1718 - val_mse:  1.3828
+Epoch 40/50
+0s - loss:  1.1643 - mse:  1.1646 - val_mse:  1.3790
+Epoch 41/50
+0s - loss:  1.1556 - mse:  1.1532 - val_mse:  1.3752
+Epoch 42/50
+0s - loss:  1.1473 - mse:  1.1426 - val_mse:  1.3710
+Epoch 43/50
+0s - loss:  1.1391 - mse:  1.1357 - val_mse:  1.3671
+Epoch 44/50
+0s - loss:  1.1308 - mse:  1.1299 - val_mse:  1.3636
+Epoch 45/50
+0s - loss:  1.1231 - mse:  1.1275 - val_mse:  1.3601
+Epoch 46/50
+0s - loss:  1.1156 - mse:  1.1154 - val_mse:  1.3576
+Epoch 47/50
+0s - loss:  1.1086 - mse:  1.1079 - val_mse:  1.3545
+Epoch 48/50
+0s - loss:  1.1013 - mse:  1.0986 - val_mse:  1.3520
+Epoch 49/50
+0s - loss:  1.0947 - mse:  1.1058 - val_mse:  1.3492
+Epoch 50/50
+0s - loss:  1.0877 - mse:  1.0914 - val_mse:  1.3473
+AFM Model RMSE: 1.0775
+AFM Model MAE: 0.9036
+AFM Execution Time: 35.75 seconds
+AFM CPU Usage: -0.10%
+AFM Memory Usage: 2206.64 MB
+
+Training and evaluating AutoInt...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  11.2536 - mse:  11.1903 - val_mse:  8.4231
+Epoch 2/50
+0s - loss:  4.8030 - mse:  4.6857 - val_mse:  1.4404
+Epoch 3/50
+0s - loss:  1.4353 - mse:  1.4229 - val_mse:  1.2904
+Epoch 4/50
+0s - loss:  1.1714 - mse:  1.1748 - val_mse:  1.2344
+Epoch 5/50
+0s - loss:  1.0790 - mse:  1.0798 - val_mse:  1.1868
+Epoch 6/50
+0s - loss:  1.0185 - mse:  1.0218 - val_mse:  1.1423
+Epoch 7/50
+0s - loss:  0.9571 - mse:  0.9595 - val_mse:  1.1049
+Epoch 8/50
+0s - loss:  0.9000 - mse:  0.9110 - val_mse:  1.0751
+Epoch 9/50
+0s - loss:  0.8501 - mse:  0.8394 - val_mse:  1.0553
+Epoch 10/50
+0s - loss:  0.8094 - mse:  0.8068 - val_mse:  1.0499
+Epoch 11/50
+0s - loss:  0.7803 - mse:  0.7713 - val_mse:  1.0505
+Epoch 12/50
+0s - loss:  0.7591 - mse:  0.7610 - val_mse:  1.0512
+Epoch 13/50
+0s - loss:  0.7428 - mse:  0.7436 - val_mse:  1.0533
+Epoch 14/50
+0s - loss:  0.7291 - mse:  0.7282 - val_mse:  1.0524
+Epoch 15/50
+0s - loss:  0.7185 - mse:  0.7232 - val_mse:  1.0496
+Epoch 16/50
+0s - loss:  0.7102 - mse:  0.7114 - val_mse:  1.0483
+Epoch 17/50
+0s - loss:  0.7021 - mse:  0.7013 - val_mse:  1.0461WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+Epoch 18/50
+0s - loss:  0.6946 - mse:  0.6949 - val_mse:  1.0429
+Epoch 19/50
+0s - loss:  0.6893 - mse:  0.6818 - val_mse:  1.0447
+Epoch 20/50
+0s - loss:  0.6845 - mse:  0.6851 - val_mse:  1.0398
+Epoch 21/50
+0s - loss:  0.6811 - mse:  0.6868 - val_mse:  1.0395
+Epoch 22/50
+0s - loss:  0.6758 - mse:  0.6781 - val_mse:  1.0377
+Epoch 23/50
+0s - loss:  0.6731 - mse:  0.6755 - val_mse:  1.0323
+Epoch 24/50
+0s - loss:  0.6697 - mse:  0.6712 - val_mse:  1.0326
+Epoch 25/50
+0s - loss:  0.6660 - mse:  0.6662 - val_mse:  1.0288
+Epoch 26/50
+0s - loss:  0.6643 - mse:  0.6668 - val_mse:  1.0285
+Epoch 27/50
+0s - loss:  0.6614 - mse:  0.6542 - val_mse:  1.0250
+Epoch 28/50
+0s - loss:  0.6609 - mse:  0.6632 - val_mse:  1.0252
+Epoch 29/50
+0s - loss:  0.6576 - mse:  0.6597 - val_mse:  1.0217
+Epoch 30/50
+0s - loss:  0.6574 - mse:  0.6579 - val_mse:  1.0171
+Epoch 31/50
+0s - loss:  0.6530 - mse:  0.6484 - val_mse:  1.0189
+Epoch 32/50
+0s - loss:  0.6521 - mse:  0.6560 - val_mse:  1.0187
+Epoch 33/50
+0s - loss:  0.6510 - mse:  0.6620 - val_mse:  1.0149
+Epoch 34/50
+0s - loss:  0.6492 - mse:  0.6576 - val_mse:  1.0149
+Epoch 35/50
+0s - loss:  0.6465 - mse:  0.6526 - val_mse:  1.0207
+Epoch 36/50
+0s - loss:  0.6458 - mse:  0.6516 - val_mse:  1.0109
+Epoch 37/50
+0s - loss:  0.6433 - mse:  0.6464 - val_mse:  1.0096
+Epoch 38/50
+0s - loss:  0.6434 - mse:  0.6432 - val_mse:  1.0066
+Epoch 39/50
+0s - loss:  0.6429 - mse:  0.6444 - val_mse:  1.0149
+Epoch 40/50
+1s - loss:  0.6415 - mse:  0.6410 - val_mse:  1.0046
+Epoch 41/50
+0s - loss:  0.6378 - mse:  0.6377 - val_mse:  1.0045
+Epoch 42/50
+0s - loss:  0.6397 - mse:  0.6456 - val_mse:  1.0027
+Epoch 43/50
+0s - loss:  0.6388 - mse:  0.6382 - val_mse:  1.0011
+Epoch 44/50
+0s - loss:  0.6364 - mse:  0.6340 - val_mse:  0.9980
+Epoch 45/50
+0s - loss:  0.6332 - mse:  0.6426 - val_mse:  0.9984
+Epoch 46/50
+0s - loss:  0.6318 - mse:  0.6326 - val_mse:  0.9978
+Epoch 47/50
+0s - loss:  0.6308 - mse:  0.6316 - val_mse:  0.9950
+Epoch 48/50
+0s - loss:  0.6307 - mse:  0.6256 - val_mse:  0.9967
+Epoch 49/50
+0s - loss:  0.6299 - mse:  0.6277 - val_mse:  0.9913
+Epoch 50/50
+0s - loss:  0.6302 - mse:  0.6317 - val_mse:  0.9950
+AutoInt Model RMSE: 0.8897
+AutoInt Model MAE: 0.6960
+AutoInt Execution Time: 19.73 seconds
+AutoInt CPU Usage: 0.10%
+AutoInt Memory Usage: 1.64 MB
+
+Training and evaluating CCPM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+6s - loss:  11.0386 - mse:  10.8752 - val_mse:  6.8334
+Epoch 2/50
+0s - loss:  3.4212 - mse:  3.3995 - val_mse:  2.6364
+Epoch 3/50
+0s - loss:  2.0862 - mse:  2.0785 - val_mse:  2.0759
+Epoch 4/50
+0s - loss:  1.9352 - mse:  1.9287 - val_mse:  1.9519
+Epoch 5/50
+0s - loss:  1.8758 - mse:  1.8744 - val_mse:  1.9291
+Epoch 6/50
+0s - loss:  1.8406 - mse:  1.8486 - val_mse:  1.9055
+Epoch 7/50
+0s - loss:  1.8012 - mse:  1.7933 - val_mse:  1.8803
+Epoch 8/50
+0s - loss:  1.7599 - mse:  1.7672 - val_mse:  1.8559
+Epoch 9/50
+0s - loss:  1.7255 - mse:  1.7179 - val_mse:  1.8217
+Epoch 10/50
+0s - loss:  1.6639 - mse:  1.6709 - val_mse:  1.7833
+Epoch 11/50
+0s - loss:  1.6052 - mse:  1.5962 - val_mse:  1.7392
+Epoch 12/50
+0s - loss:  1.5463 - mse:  1.5422 - val_mse:  1.7087
+Epoch 13/50
+0s - loss:  1.4964 - mse:  1.4846 - val_mse:  1.7002
+Epoch 14/50
+0s - loss:  1.4507 - mse:  1.4526 - val_mse:  1.6563
+Epoch 15/50
+0s - loss:  1.3964 - mse:  1.3976 - val_mse:  1.6390
+Epoch 16/50
+0s - loss:  1.3546 - mse:  1.3583 - val_mse:  1.6351
+Epoch 17/50
+0s - loss:  1.3234 - mse:  1.3235 - val_mse:  1.6257
+Epoch 18/50
+0s - loss:  1.2920 - mse:  1.2925 - val_mse:  1.6261
+Epoch 19/50
+0s - loss:  1.2639 - mse:  1.2672 - val_mse:  1.6260
+Epoch 20/50
+0s - loss:  1.2393 - mse:  1.2396 - val_mse:  1.6265
+Epoch 21/50
+0s - loss:  1.2179 - mse:  1.2185 - val_mse:  1.6249
+Epoch 22/50
+0s - loss:  1.1954 - mse:  1.1899 - val_mse:  1.6231
+Epoch 23/50
+0s - loss:  1.1740 - mse:  1.1670 - val_mse:  1.6293
+Epoch 24/50
+0s - loss:  1.1682 - mse:  1.1657 - val_mse:  1.6247
+Epoch 25/50
+0s - loss:  1.1423 - mse:  1.1516 - val_mse:  1.6201
+Epoch 26/50
+0s - loss:  1.1258 - mse:  1.1292 - val_mse:  1.6258
+Epoch 27/50
+0s - loss:  1.1070 - mse:  1.1067 - val_mse:  1.6158
+Epoch 28/50
+0s - loss:  1.0898 - mse:  1.0756 - val_mse:  1.6123
+Epoch 29/50
+0s - loss:  1.0724 - mse:  1.0728 - val_mse:  1.6135
+Epoch 30/50
+0s - loss:  1.0569 - mse:  1.0511 - val_mse:  1.6156
+Epoch 31/50
+0s - loss:  1.0405 - mse:  1.0373 - val_mse:  1.6122
+Epoch 32/50
+0s - loss:  1.0249 - mse:  1.0217 - val_mse:  1.6002
+Epoch 33/50
+0s - loss:  1.0080 - mse:  1.0108 - val_mse:  1.5951
+Epoch 34/50
+0s - loss:  0.9940 - mse:  0.9943 - val_mse:  1.5949
+Epoch 35/50
+0s - loss:  0.9823 - mse:  0.9926 - val_mse:  1.6177
+Epoch 36/50
+0s - loss:  0.9631 - mse:  0.9581 - val_mse:  1.5861
+Epoch 37/50
+0s - loss:  0.9391 - mse:  0.9416 - val_mse:  1.5807
+Epoch 38/50
+0s - loss:  0.9241 - mse:  0.9247 - val_mse:  1.5777
+Epoch 39/50
+0s - loss:  0.9021 - mse:  0.9133 - val_mse:  1.5760
+Epoch 40/50
+0s - loss:  0.8853 - mse:  0.8868 - val_mse:  1.5732
+Epoch 41/50
+0s - loss:  0.8640 - mse:  0.8647 - val_mse:  1.5703
+Epoch 42/50
+0s - loss:  0.8483 - mse:  0.8497 - val_mse:  1.6102
+Epoch 43/50
+0s - loss:  0.8361 - mse:  0.8302 - val_mse:  1.5754
+Epoch 44/50
+0s - loss:  0.8102 - mse:  0.8097 - val_mse:  1.5998
+Epoch 45/50
+0s - loss:  0.7907 - mse:  0.7871 - val_mse:  1.5678
+Epoch 46/50
+0s - loss:  0.7654 - mse:  0.7654 - val_mse:  1.5805
+Epoch 47/50
+0s - loss:  0.7429 - mse:  0.7456 - val_mse:  1.5670
+Epoch 48/50
+0s - loss:  0.7204 - mse:  0.7203 - val_mse:  1.5720
+Epoch 49/50
+0s - loss:  0.7002 - mse:  0.6999 - val_mse:  1.5780
+Epoch 50/50
+0s - loss:  0.6842 - mse:  0.6861 - val_mse:  1.5923
+CCPM Model RMSE: 1.1788
+CCPM Model MAE: 0.9371
+CCPM Execution Time: 23.47 seconds
+CCPM CPU Usage: -0.10%
+CCPM Memory Usage: 610.74 MB
+
+Training and evaluating DCN...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+1s - loss:  10.8555 - mse:  10.6966 - val_mse:  7.4658
+Epoch 2/50
+0s - loss:  3.8673 - mse:  3.7676 - val_mse:  1.3937
+Epoch 3/50
+0s - loss:  1.4832 - mse:  1.4755 - val_mse:  1.3204
+Epoch 4/50
+0s - loss:  1.2167 - mse:  1.2053 - val_mse:  1.2562
+Epoch 5/50
+0s - loss:  1.1065 - mse:  1.1056 - val_mse:  1.1991
+Epoch 6/50
+0s - loss:  1.0260 - mse:  1.0231 - val_mse:  1.1461
+Epoch 7/50
+0s - loss:  0.9543 - mse:  0.9568 - val_mse:  1.1013
+Epoch 8/50
+0s - loss:  0.8897 - mse:  0.8893 - val_mse:  1.0706
+Epoch 9/50
+0s - loss:  0.8376 - mse:  0.8392 - val_mse:  1.0563
+Epoch 10/50
+0s - loss:  0.7980 - mse:  0.7986 - val_mse:  1.0531
+Epoch 11/50
+0s - loss:  0.7718 - mse:  0.7751 - val_mse:  1.0534
+Epoch 12/50
+0s - loss:  0.7512 - mse:  0.7476 - val_mse:  1.0559
+Epoch 13/50
+0s - loss:  0.7363 - mse:  0.7329 - val_mse:  1.0538
+Epoch 14/50
+0s - loss:  0.7221 - mse:  0.7221 - val_mse:  1.0518
+Epoch 15/50
+0s - loss:  0.7116 - mse:  0.7125 - val_mse:  1.0494
+Epoch 16/50
+0s - loss:  0.7029 - mse:  0.7008 - val_mse:  1.0474
+Epoch 17/50
+0s - loss:  0.6949 - mse:  0.6920 - val_mse:  1.0446
+Epoch 18/50
+0s - loss:  0.6885 - mse:  0.6913 - val_mse:  1.0413
+Epoch 19/50
+0s - loss:  0.6833 - mse:  0.6847 - val_mse:  1.0383
+Epoch 20/50
+0s - loss:  0.6784 - mse:  0.6852 - val_mse:  1.0370
+Epoch 21/50
+0s - loss:  0.6737 - mse:  0.6759 - val_mse:  1.0329
+Epoch 22/50
+0s - loss:  0.6707 - mse:  0.6715 - val_mse:  1.0328
+Epoch 23/50
+0s - loss:  0.6696 - mse:  0.6691 - val_mse:  1.0306
+Epoch 24/50
+0s - loss:  0.6640 - mse:  0.6669 - val_mse:  1.0287
+Epoch 25/50
+0s - loss:  0.6623 - mse:  0.6580 - val_mse:  1.0261
+Epoch 26/50
+0s - loss:  0.6596 - mse:  0.6610 - val_mse:  1.0194
+Epoch 27/50
+0s - loss:  0.6562 - mse:  0.6490 - val_mse:  1.0211
+Epoch 28/50
+0s - loss:  0.6550 - mse:  0.6552 - val_mse:  1.0200
+Epoch 29/50
+0s - loss:  0.6529 - mse:  0.6517 - val_mse:  1.0154
+Epoch 30/50
+0s - loss:  0.6502 - mse:  0.6540 - val_mse:  1.0149
+Epoch 31/50
+0s - loss:  0.6513 - mse:  0.6580 - val_mse:  1.0160
+Epoch 32/50
+0s - loss:  0.6484 - mse:  0.6573 - val_mse:  1.0157
+Epoch 33/50
+0s - loss:  0.6472 - mse:  0.6438 - val_mse:  1.0090
+Epoch 34/50
+0s - loss:  0.6459 - mse:  0.6403 - val_mse:  1.0042
+Epoch 35/50
+0s - loss:  0.6424 - mse:  0.6491 - val_mse:  1.0068
+Epoch 36/50
+0s - loss:  0.6403 - mse:  0.6355 - val_mse:  1.0051WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+Epoch 37/50
+0s - loss:  0.6394 - mse:  0.6396 - val_mse:  1.0056
+Epoch 38/50
+0s - loss:  0.6393 - mse:  0.6432 - val_mse:  1.0026
+Epoch 39/50
+0s - loss:  0.6372 - mse:  0.6361 - val_mse:  0.9980
+Epoch 40/50
+0s - loss:  0.6367 - mse:  0.6340 - val_mse:  0.9992
+Epoch 41/50
+0s - loss:  0.6354 - mse:  0.6324 - val_mse:  0.9952
+Epoch 42/50
+0s - loss:  0.6327 - mse:  0.6384 - val_mse:  0.9946
+Epoch 43/50
+0s - loss:  0.6319 - mse:  0.6366 - val_mse:  0.9939
+Epoch 44/50
+0s - loss:  0.6315 - mse:  0.6380 - val_mse:  0.9903
+Epoch 45/50
+0s - loss:  0.6282 - mse:  0.6342 - val_mse:  0.9919
+Epoch 46/50
+0s - loss:  0.6277 - mse:  0.6300 - val_mse:  0.9896
+Epoch 47/50
+0s - loss:  0.6263 - mse:  0.6281 - val_mse:  0.9926
+Epoch 48/50
+0s - loss:  0.6257 - mse:  0.6329 - val_mse:  0.9879
+Epoch 49/50
+0s - loss:  0.6259 - mse:  0.6241 - val_mse:  0.9889
+Epoch 50/50
+0s - loss:  0.6241 - mse:  0.6213 - val_mse:  0.9851
+DCN Model RMSE: 0.8821
+DCN Model MAE: 0.6868
+DCN Execution Time: 19.81 seconds
+DCN CPU Usage: 0.10%
+DCN Memory Usage: 0.18 MB
+
+Training and evaluating DCNMix...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  10.9647 - mse:  10.8630 - val_mse:  7.5793
+Epoch 2/50
+0s - loss:  3.8926 - mse:  3.7915 - val_mse:  1.3048
+Epoch 3/50
+0s - loss:  1.3620 - mse:  1.3641 - val_mse:  1.2416
+Epoch 4/50
+0s - loss:  1.1214 - mse:  1.1261 - val_mse:  1.1833
+Epoch 5/50
+0s - loss:  1.0212 - mse:  1.0147 - val_mse:  1.1301
+Epoch 6/50
+0s - loss:  0.9392 - mse:  0.9370 - val_mse:  1.0775
+Epoch 7/50
+0s - loss:  0.8586 - mse:  0.8623 - val_mse:  1.0400
+Epoch 8/50
+0s - loss:  0.7910 - mse:  0.7918 - val_mse:  1.0321
+Epoch 9/50
+0s - loss:  0.7479 - mse:  0.7490 - val_mse:  1.0320
+Epoch 10/50
+0s - loss:  0.7216 - mse:  0.7337 - val_mse:  1.0354
+Epoch 11/50
+0s - loss:  0.7036 - mse:  0.6974 - val_mse:  1.0276
+Epoch 12/50
+0s - loss:  0.6910 - mse:  0.6918 - val_mse:  1.0216
+Epoch 13/50
+0s - loss:  0.6800 - mse:  0.6786 - val_mse:  1.0167
+Epoch 14/50
+0s - loss:  0.6713 - mse:  0.6729 - val_mse:  1.0087
+Epoch 15/50
+0s - loss:  0.6644 - mse:  0.6698 - val_mse:  1.0139
+Epoch 16/50
+0s - loss:  0.6601 - mse:  0.6581 - val_mse:  1.0129
+Epoch 17/50
+0s - loss:  0.6511 - mse:  0.6472 - val_mse:  1.0082
+Epoch 18/50
+0s - loss:  0.6456 - mse:  0.6492 - val_mse:  1.0016
+Epoch 19/50
+0s - loss:  0.6383 - mse:  0.6437 - val_mse:  0.9935
+Epoch 20/50
+0s - loss:  0.6317 - mse:  0.6304 - val_mse:  0.9916
+Epoch 21/50
+0s - loss:  0.6225 - mse:  0.6215 - val_mse:  0.9883
+Epoch 22/50
+0s - loss:  0.6128 - mse:  0.6125 - val_mse:  0.9768
+Epoch 23/50
+0s - loss:  0.6052 - mse:  0.6044 - val_mse:  0.9675
+Epoch 24/50
+0s - loss:  0.5955 - mse:  0.5991 - val_mse:  0.9613
+Epoch 25/50
+1s - loss:  0.5887 - mse:  0.5870 - val_mse:  0.9596
+Epoch 26/50
+0s - loss:  0.5815 - mse:  0.5812 - val_mse:  0.9544
+Epoch 27/50
+0s - loss:  0.5714 - mse:  0.5742 - val_mse:  0.9528
+Epoch 28/50
+0s - loss:  0.5634 - mse:  0.5587 - val_mse:  0.9524
+Epoch 29/50
+0s - loss:  0.5574 - mse:  0.5533 - val_mse:  0.9616
+Epoch 30/50
+0s - loss:  0.5477 - mse:  0.5452 - val_mse:  0.9506
+Epoch 31/50
+0s - loss:  0.5323 - mse:  0.5464 - val_mse:  0.9444
+Epoch 32/50
+0s - loss:  0.5196 - mse:  0.5164 - val_mse:  0.9577
+Epoch 33/50
+0s - loss:  0.5092 - mse:  0.5067 - val_mse:  0.9435
+Epoch 34/50
+0s - loss:  0.4954 - mse:  0.4990 - val_mse:  0.9403
+Epoch 35/50
+0s - loss:  0.4836 - mse:  0.4855 - val_mse:  0.9346
+Epoch 36/50
+0s - loss:  0.4766 - mse:  0.4743 - val_mse:  0.9433
+Epoch 37/50
+0s - loss:  0.4645 - mse:  0.4677 - val_mse:  0.9556
+Epoch 38/50
+0s - loss:  0.4560 - mse:  0.4558 - val_mse:  0.9456
+Epoch 39/50
+0s - loss:  0.4483 - mse:  0.4506 - val_mse:  0.9468
+Epoch 40/50
+0s - loss:  0.4353 - mse:  0.4380 - val_mse:  0.9572
+Epoch 41/50
+0s - loss:  0.4282 - mse:  0.4273 - val_mse:  0.9892
+Epoch 42/50
+0s - loss:  0.4258 - mse:  0.4293 - val_mse:  0.9818
+Epoch 43/50
+0s - loss:  0.4190 - mse:  0.4185 - val_mse:  0.9694
+Epoch 44/50
+0s - loss:  0.4115 - mse:  0.4105 - val_mse:  0.9922
+Epoch 45/50
+0s - loss:  0.4025 - mse:  0.4015 - val_mse:  0.9770
+Epoch 46/50
+0s - loss:  0.3930 - mse:  0.3915 - val_mse:  1.0040
+Epoch 47/50
+0s - loss:  0.3877 - mse:  0.3849 - val_mse:  0.9952
+Epoch 48/50
+0s - loss:  0.3806 - mse:  0.3813 - val_mse:  1.0021
+Epoch 49/50
+0s - loss:  0.3753 - mse:  0.3755 - val_mse:  1.0208
+Epoch 50/50
+0s - loss:  0.3729 - mse:  0.3706 - val_mse:  1.0091
+DCNMix Model RMSE: 0.8705
+DCNMix Model MAE: 0.6420
+DCNMix Execution Time: 28.65 seconds
+DCNMix CPU Usage: 0.40%
+DCNMix Memory Usage: 15.30 MB
+
+Training and evaluating DeepFM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  10.9610 - mse:  10.8428 - val_mse:  7.5943
+Epoch 2/50
+0s - loss:  3.9417 - mse:  3.8419 - val_mse:  1.3557
+Epoch 3/50
+0s - loss:  1.4228 - mse:  1.4147 - val_mse:  1.2778
+Epoch 4/50
+0s - loss:  1.1665 - mse:  1.1590 - val_mse:  1.2184
+Epoch 5/50
+0s - loss:  1.0648 - mse:  1.0668 - val_mse:  1.1730
+Epoch 6/50
+0s - loss:  1.0005 - mse:  0.9910 - val_mse:  1.1311
+Epoch 7/50
+0s - loss:  0.9406 - mse:  0.9388 - val_mse:  1.0950
+Epoch 8/50
+0s - loss:  0.8858 - mse:  0.8874 - val_mse:  1.0673
+Epoch 9/50
+0s - loss:  0.8391 - mse:  0.8407 - val_mse:  1.0512
+Epoch 10/50
+0s - loss:  0.8027 - mse:  0.8044 - val_mse:  1.0459
+Epoch 11/50
+0s - loss:  0.7763 - mse:  0.7869 - val_mse:  1.0461
+Epoch 12/50
+0s - loss:  0.7565 - mse:  0.7594 - val_mse:  1.0466
+Epoch 13/50
+0s - loss:  0.7385 - mse:  0.7436 - val_mse:  1.0470
+Epoch 14/50
+0s - loss:  0.7261 - mse:  0.7231 - val_mse:  1.0462
+Epoch 15/50
+0s - loss:  0.7172 - mse:  0.7231 - val_mse:  1.0473
+Epoch 16/50
+0s - loss:  0.7074 - mse:  0.7152 - val_mse:  1.0445
+Epoch 17/50
+0s - loss:  0.6981 - mse:  0.7000 - val_mse:  1.0455
+Epoch 18/50
+0s - loss:  0.6915 - mse:  0.6951 - val_mse:  1.0458
+Epoch 19/50
+0s - loss:  0.6913 - mse:  0.6914 - val_mse:  1.0380
+Epoch 20/50
+0s - loss:  0.6828 - mse:  0.6818 - val_mse:  1.0394
+Epoch 21/50
+0s - loss:  0.6767 - mse:  0.6844 - val_mse:  1.0339
+Epoch 22/50
+0s - loss:  0.6724 - mse:  0.6732 - val_mse:  1.0329
+Epoch 23/50
+0s - loss:  0.6703 - mse:  0.6611 - val_mse:  1.0306
+Epoch 24/50
+0s - loss:  0.6656 - mse:  0.6585 - val_mse:  1.0271
+Epoch 25/50
+0s - loss:  0.6648 - mse:  0.6684 - val_mse:  1.0321
+Epoch 26/50
+0s - loss:  0.6608 - mse:  0.6605 - val_mse:  1.0288
+Epoch 27/50
+0s - loss:  0.6592 - mse:  0.6620 - val_mse:  1.0248
+Epoch 28/50
+0s - loss:  0.6563 - mse:  0.6493 - val_mse:  1.0227
+Epoch 29/50
+0s - loss:  0.6533 - mse:  0.6560 - val_mse:  1.0209
+Epoch 30/50
+0s - loss:  0.6539 - mse:  0.6587 - val_mse:  1.0193
+Epoch 31/50
+0s - loss:  0.6505 - mse:  0.6505 - val_mse:  1.0207
+Epoch 32/50
+0s - loss:  0.6503 - mse:  0.6465 - val_mse:  1.0178
+Epoch 33/50
+0s - loss:  0.6471 - mse:  0.6478 - val_mse:  1.0117
+Epoch 34/50
+0s - loss:  0.6469 - mse:  0.6446 - val_mse:  1.0145
+Epoch 35/50
+0s - loss:  0.6468 - mse:  0.6500 - val_mse:  1.0116
+Epoch 36/50
+0s - loss:  0.6432 - mse:  0.6513 - val_mse:  1.0110
+Epoch 37/50
+0s - loss:  0.6408 - mse:  0.6411 - val_mse:  1.0074
+Epoch 38/50
+0s - loss:  0.6431 - mse:  0.6429 - val_mse:  1.0045
+Epoch 39/50
+0s - loss:  0.6415 - mse:  0.6414 - val_mse:  1.0052
+Epoch 40/50
+0s - loss:  0.6377 - mse:  0.6375 - val_mse:  1.0075
+Epoch 41/50
+0s - loss:  0.6353 - mse:  0.6356 - val_mse:  0.9988
+Epoch 42/50
+0s - loss:  0.6340 - mse:  0.6359 - val_mse:  1.0006
+Epoch 43/50
+0s - loss:  0.6333 - mse:  0.6321 - val_mse:  0.9969
+Epoch 44/50
+0s - loss:  0.6327 - mse:  0.6343 - val_mse:  0.9976
+Epoch 45/50
+0s - loss:  0.6333 - mse:  0.6292 - val_mse:  0.9964
+Epoch 46/50
+0s - loss:  0.6304 - mse:  0.6301 - val_mse:  0.9969
+Epoch 47/50
+0s - loss:  0.6285 - mse:  0.6393 - val_mse:  0.9926
+Epoch 48/50
+0s - loss:  0.6290 - mse:  0.6310 - val_mse:  0.9998
+Epoch 49/50
+0s - loss:  0.6278 - mse:  0.6243 - val_mse:  0.9918
+Epoch 50/50
+0s - loss:  0.6261 - mse:  0.6264 - val_mse:  0.9940
+DeepFM Model RMSE: 0.8850
+DeepFM Model MAE: 0.6879
+DeepFM Execution Time: 16.62 seconds
+DeepFM CPU Usage: 0.30%
+DeepFM Memory Usage: 19.86 MB
+
+Training and evaluating DIFM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  13.0064 - mse:  13.0414 - val_mse:  12.7184WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+Epoch 2/50
+0s - loss:  11.6341 - mse:  11.5230 - val_mse:  9.5883
+Epoch 3/50
+0s - loss:  4.9741 - mse:  4.9134 - val_mse:  3.1288
+Epoch 4/50
+0s - loss:  2.0700 - mse:  2.0578 - val_mse:  1.8341
+Epoch 5/50
+0s - loss:  1.5128 - mse:  1.5097 - val_mse:  1.8251
+Epoch 6/50
+0s - loss:  1.4042 - mse:  1.4007 - val_mse:  1.8435
+Epoch 7/50
+0s - loss:  1.3505 - mse:  1.3495 - val_mse:  1.8389
+Epoch 8/50
+0s - loss:  1.3271 - mse:  1.3338 - val_mse:  1.8435
+Epoch 9/50
+0s - loss:  1.3169 - mse:  1.3145 - val_mse:  1.8441
+Epoch 10/50
+0s - loss:  1.3054 - mse:  1.3139 - val_mse:  1.8614
+Epoch 11/50
+0s - loss:  1.3008 - mse:  1.3058 - val_mse:  1.8644
+Epoch 12/50
+0s - loss:  1.2912 - mse:  1.2913 - val_mse:  1.8579
+Epoch 13/50
+0s - loss:  1.2853 - mse:  1.2848 - val_mse:  1.8552
+Epoch 14/50
+0s - loss:  1.2776 - mse:  1.2679 - val_mse:  1.8640
+Epoch 15/50
+0s - loss:  1.2699 - mse:  1.2834 - val_mse:  1.8598
+Epoch 16/50
+0s - loss:  1.2639 - mse:  1.2667 - val_mse:  1.8743
+Epoch 17/50
+0s - loss:  1.2578 - mse:  1.2534 - val_mse:  1.8505
+Epoch 18/50
+0s - loss:  1.2484 - mse:  1.2559 - val_mse:  1.8587
+Epoch 19/50
+0s - loss:  1.2401 - mse:  1.2358 - val_mse:  1.8515
+Epoch 20/50
+0s - loss:  1.2264 - mse:  1.2199 - val_mse:  1.8642
+Epoch 21/50
+0s - loss:  1.2173 - mse:  1.2214 - val_mse:  1.8357
+Epoch 22/50
+0s - loss:  1.2024 - mse:  1.2055 - val_mse:  1.8244
+Epoch 23/50
+0s - loss:  1.1877 - mse:  1.1812 - val_mse:  1.8230
+Epoch 24/50
+0s - loss:  1.1703 - mse:  1.1713 - val_mse:  1.8173
+Epoch 25/50
+0s - loss:  1.1546 - mse:  1.1544 - val_mse:  1.8230
+Epoch 26/50
+0s - loss:  1.1344 - mse:  1.1387 - val_mse:  1.8367
+Epoch 27/50
+0s - loss:  1.1127 - mse:  1.1119 - val_mse:  1.8210
+Epoch 28/50
+0s - loss:  1.0896 - mse:  1.0872 - val_mse:  1.8415
+Epoch 29/50
+0s - loss:  1.0730 - mse:  1.0725 - val_mse:  1.8434
+Epoch 30/50
+0s - loss:  1.0550 - mse:  1.0515 - val_mse:  1.8599
+Epoch 31/50
+0s - loss:  1.0409 - mse:  1.0385 - val_mse:  1.8559
+Epoch 32/50
+0s - loss:  1.0274 - mse:  1.0386 - val_mse:  1.8656
+Epoch 33/50
+0s - loss:  1.0158 - mse:  1.0192 - val_mse:  1.8720
+Epoch 34/50
+0s - loss:  1.0033 - mse:  0.9998 - val_mse:  1.8851
+Epoch 35/50
+0s - loss:  0.9937 - mse:  0.9972 - val_mse:  1.8867
+Epoch 36/50
+0s - loss:  0.9854 - mse:  0.9869 - val_mse:  1.8792
+Epoch 37/50
+0s - loss:  0.9724 - mse:  0.9812 - val_mse:  1.9242
+Epoch 38/50
+0s - loss:  0.9653 - mse:  0.9673 - val_mse:  1.8952
+Epoch 39/50
+0s - loss:  0.9573 - mse:  0.9597 - val_mse:  1.9263
+Epoch 40/50
+0s - loss:  0.9509 - mse:  0.9528 - val_mse:  1.9045
+Epoch 41/50
+0s - loss:  0.9374 - mse:  0.9373 - val_mse:  1.9363
+Epoch 42/50
+0s - loss:  0.9282 - mse:  0.9297 - val_mse:  1.9249
+Epoch 43/50
+0s - loss:  0.9170 - mse:  0.9211 - val_mse:  1.9397
+Epoch 44/50
+0s - loss:  0.9089 - mse:  0.9102 - val_mse:  1.9650
+Epoch 45/50
+0s - loss:  0.8972 - mse:  0.8962 - val_mse:  1.9230
+Epoch 46/50
+0s - loss:  0.8815 - mse:  0.8847 - val_mse:  1.9379
+Epoch 47/50
+0s - loss:  0.8711 - mse:  0.8727 - val_mse:  1.9266
+Epoch 48/50
+0s - loss:  0.8527 - mse:  0.8539 - val_mse:  1.9185
+Epoch 49/50
+0s - loss:  0.8388 - mse:  0.8374 - val_mse:  1.9109
+Epoch 50/50
+0s - loss:  0.8212 - mse:  0.8274 - val_mse:  1.9418
+DIFM Model RMSE: 1.3077
+DIFM Model MAE: 1.0266
+DIFM Execution Time: 19.19 seconds
+DIFM CPU Usage: 0.10%
+DIFM Memory Usage: 4.38 MB
+
+Training and evaluating FiBiNET...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  11.7332 - mse:  11.6516 - val_mse:  9.5390
+Epoch 2/50
+1s - loss:  6.3884 - mse:  6.2618 - val_mse:  2.6117
+Epoch 3/50
+0s - loss:  1.4034 - mse:  1.4182 - val_mse:  1.4755
+Epoch 4/50
+0s - loss:  1.1203 - mse:  1.1169 - val_mse:  1.1802
+Epoch 5/50
+0s - loss:  1.0255 - mse:  1.0353 - val_mse:  1.1322
+Epoch 6/50
+0s - loss:  0.9902 - mse:  0.9887 - val_mse:  1.1104
+Epoch 7/50
+0s - loss:  0.9602 - mse:  0.9597 - val_mse:  1.0914
+Epoch 8/50
+0s - loss:  0.9243 - mse:  0.9248 - val_mse:  1.0665
+Epoch 9/50
+0s - loss:  0.8747 - mse:  0.8749 - val_mse:  1.0407
+Epoch 10/50
+0s - loss:  0.8137 - mse:  0.8110 - val_mse:  1.0297
+Epoch 11/50
+0s - loss:  0.7650 - mse:  0.7663 - val_mse:  1.0422
+Epoch 12/50
+0s - loss:  0.7400 - mse:  0.7409 - val_mse:  1.0472
+Epoch 13/50
+0s - loss:  0.7233 - mse:  0.7252 - val_mse:  1.0494
+Epoch 14/50
+0s - loss:  0.7105 - mse:  0.7187 - val_mse:  1.0455
+Epoch 15/50
+0s - loss:  0.6997 - mse:  0.6996 - val_mse:  1.0539
+Epoch 16/50
+0s - loss:  0.6903 - mse:  0.6860 - val_mse:  1.0437
+Epoch 17/50
+0s - loss:  0.6817 - mse:  0.6844 - val_mse:  1.0461
+Epoch 18/50
+1s - loss:  0.6730 - mse:  0.6698 - val_mse:  1.0431
+Epoch 19/50
+0s - loss:  0.6670 - mse:  0.6765 - val_mse:  1.0411
+Epoch 20/50
+0s - loss:  0.6584 - mse:  0.6569 - val_mse:  1.0404
+Epoch 21/50
+0s - loss:  0.6496 - mse:  0.6530 - val_mse:  1.0407
+Epoch 22/50
+0s - loss:  0.6423 - mse:  0.6396 - val_mse:  1.0335
+Epoch 23/50
+0s - loss:  0.6348 - mse:  0.6318 - val_mse:  1.0365
+Epoch 24/50
+0s - loss:  0.6266 - mse:  0.6243 - val_mse:  1.0311
+Epoch 25/50
+0s - loss:  0.6205 - mse:  0.6176 - val_mse:  1.0285
+Epoch 26/50
+0s - loss:  0.6139 - mse:  0.6104 - val_mse:  1.0277
+Epoch 27/50
+0s - loss:  0.6090 - mse:  0.6127 - val_mse:  1.0273
+Epoch 28/50
+0s - loss:  0.6033 - mse:  0.6004 - val_mse:  1.0236
+Epoch 29/50
+0s - loss:  0.5997 - mse:  0.6049 - val_mse:  1.0260
+Epoch 30/50
+0s - loss:  0.5957 - mse:  0.5938 - val_mse:  1.0221
+Epoch 31/50
+0s - loss:  0.5914 - mse:  0.5935 - val_mse:  1.0193
+Epoch 32/50
+0s - loss:  0.5871 - mse:  0.5875 - val_mse:  1.0234
+Epoch 33/50
+0s - loss:  0.5840 - mse:  0.5795 - val_mse:  1.0211
+Epoch 34/50
+0s - loss:  0.5802 - mse:  0.5760 - val_mse:  1.0257
+Epoch 35/50
+0s - loss:  0.5772 - mse:  0.5750 - val_mse:  1.0195
+Epoch 36/50
+0s - loss:  0.5737 - mse:  0.5743 - val_mse:  1.0187
+Epoch 37/50
+0s - loss:  0.5716 - mse:  0.5710 - val_mse:  1.0226
+Epoch 38/50
+0s - loss:  0.5668 - mse:  0.5688 - val_mse:  1.0218
+Epoch 39/50
+0s - loss:  0.5639 - mse:  0.5610 - val_mse:  1.0197
+Epoch 40/50
+0s - loss:  0.5610 - mse:  0.5644 - val_mse:  1.0315
+Epoch 41/50
+0s - loss:  0.5599 - mse:  0.5619 - val_mse:  1.0233
+Epoch 42/50
+0s - loss:  0.5534 - mse:  0.5553 - val_mse:  1.0248
+Epoch 43/50
+0s - loss:  0.5521 - mse:  0.5563 - val_mse:  1.0231
+Epoch 44/50
+0s - loss:  0.5468 - mse:  0.5431 - val_mse:  1.0235
+Epoch 45/50
+0s - loss:  0.5431 - mse:  0.5512 - val_mse:  1.0274
+Epoch 46/50
+0s - loss:  0.5404 - mse:  0.5402 - val_mse:  1.0304
+Epoch 47/50
+0s - loss:  0.5360 - mse:  0.5355 - val_mse:  1.0258
+Epoch 48/50
+0s - loss:  0.5326 - mse:  0.5323 - val_mse:  1.0344
+Epoch 49/50
+0s - loss:  0.5280 - mse:  0.5227 - val_mse:  1.0320
+Epoch 50/50
+0s - loss:  0.5245 - mse:  0.5238 - val_mse:  1.0279
+FiBiNET Model RMSE: 0.9466
+FiBiNET Model MAE: 0.7288
+FiBiNET Execution Time: 30.20 seconds
+FiBiNET CPU Usage: -0.10%
+FiBiNET Memory Usage: 11.41 MB
+
+Training and evaluating NFM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  9.8861 - mse:  9.7571 - val_mse:  5.6456
+Epoch 2/50
+0s - loss:  2.7515 - mse:  2.7007 - val_mse:  1.6257
+Epoch 3/50
+0s - loss:  1.5553 - mse:  1.5393 - val_mse:  1.4161
+Epoch 4/50
+0s - loss:  1.3169 - mse:  1.3198 - val_mse:  1.3557
+Epoch 5/50
+0s - loss:  1.2350 - mse:  1.2347 - val_mse:  1.3036
+Epoch 6/50
+0s - loss:  1.1666 - mse:  1.1719 - val_mse:  1.2446
+Epoch 7/50
+0s - loss:  1.0838 - mse:  1.0905 - val_mse:  1.1766
+Epoch 8/50
+0s - loss:  0.9872 - mse:  0.9831 - val_mse:  1.1034
+Epoch 9/50
+0s - loss:  0.8869 - mse:  0.8825 - val_mse:  1.0544
+Epoch 10/50
+0s - loss:  0.8154 - mse:  0.8129 - val_mse:  1.0404
+Epoch 11/50
+0s - loss:  0.7758 - mse:  0.7800 - val_mse:  1.0427
+Epoch 12/50
+0s - loss:  0.7505 - mse:  0.7538 - val_mse:  1.0402
+Epoch 13/50
+0s - loss:  0.7335 - mse:  0.7293 - val_mse:  1.0361
+Epoch 14/50
+0s - loss:  0.7193 - mse:  0.7234 - val_mse:  1.0349
+Epoch 15/50
+0s - loss:  0.7055 - mse:  0.7066 - val_mse:  1.0294
+Epoch 16/50
+0s - loss:  0.6955 - mse:  0.6934 - val_mse:  1.0279
+Epoch 17/50
+0s - loss:  0.6886 - mse:  0.6887 - val_mse:  1.0286
+Epoch 18/50
+0s - loss:  0.6789 - mse:  0.6791 - val_mse:  1.0288
+Epoch 19/50
+0s - loss:  0.6723 - mse:  0.6746 - val_mse:  1.0206
+Epoch 20/50
+0s - loss:  0.6655 - mse:  0.6704 - val_mse:  1.0189WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+Epoch 21/50
+0s - loss:  0.6593 - mse:  0.6603 - val_mse:  1.0155
+Epoch 22/50
+0s - loss:  0.6542 - mse:  0.6604 - val_mse:  1.0158
+Epoch 23/50
+0s - loss:  0.6469 - mse:  0.6485 - val_mse:  1.0120
+Epoch 24/50
+0s - loss:  0.6426 - mse:  0.6354 - val_mse:  1.0083
+Epoch 25/50
+0s - loss:  0.6331 - mse:  0.6263 - val_mse:  1.0054
+Epoch 26/50
+0s - loss:  0.6280 - mse:  0.6350 - val_mse:  1.0065
+Epoch 27/50
+0s - loss:  0.6222 - mse:  0.6191 - val_mse:  1.0068
+Epoch 28/50
+0s - loss:  0.6159 - mse:  0.6176 - val_mse:  0.9990
+Epoch 29/50
+0s - loss:  0.6092 - mse:  0.6077 - val_mse:  0.9987
+Epoch 30/50
+0s - loss:  0.6029 - mse:  0.6018 - val_mse:  0.9949
+Epoch 31/50
+0s - loss:  0.5959 - mse:  0.5952 - val_mse:  0.9985
+Epoch 32/50
+0s - loss:  0.5914 - mse:  0.5887 - val_mse:  0.9938
+Epoch 33/50
+0s - loss:  0.5859 - mse:  0.5824 - val_mse:  1.0023
+Epoch 34/50
+0s - loss:  0.5815 - mse:  0.5895 - val_mse:  0.9935
+Epoch 35/50
+0s - loss:  0.5760 - mse:  0.5780 - val_mse:  1.0007
+Epoch 36/50
+0s - loss:  0.5735 - mse:  0.5742 - val_mse:  0.9972
+Epoch 37/50
+0s - loss:  0.5673 - mse:  0.5677 - val_mse:  0.9984
+Epoch 38/50
+0s - loss:  0.5632 - mse:  0.5624 - val_mse:  0.9991
+Epoch 39/50
+0s - loss:  0.5592 - mse:  0.5589 - val_mse:  1.0011
+Epoch 40/50
+0s - loss:  0.5563 - mse:  0.5531 - val_mse:  1.0062
+Epoch 41/50
+0s - loss:  0.5530 - mse:  0.5472 - val_mse:  1.0021
+Epoch 42/50
+0s - loss:  0.5492 - mse:  0.5513 - val_mse:  1.0040
+Epoch 43/50
+0s - loss:  0.5469 - mse:  0.5449 - val_mse:  1.0036
+Epoch 44/50
+0s - loss:  0.5446 - mse:  0.5447 - val_mse:  1.0071
+Epoch 45/50
+0s - loss:  0.5407 - mse:  0.5365 - val_mse:  1.0124
+Epoch 46/50
+0s - loss:  0.5402 - mse:  0.5455 - val_mse:  1.0084
+Epoch 47/50
+0s - loss:  0.5344 - mse:  0.5310 - val_mse:  1.0084
+Epoch 48/50
+0s - loss:  0.5314 - mse:  0.5282 - val_mse:  1.0111
+Epoch 49/50
+0s - loss:  0.5299 - mse:  0.5259 - val_mse:  1.0148
+Epoch 50/50
+0s - loss:  0.5270 - mse:  0.5261 - val_mse:  1.0177
+NFM Model RMSE: 0.9313
+NFM Model MAE: 0.7141
+NFM Execution Time: 15.27 seconds
+NFM CPU Usage: 0.00%
+NFM Memory Usage: 13.29 MB
+
+Training and evaluating ONN...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  10.9835 - mse:  10.8488 - val_mse:  7.4495
+Epoch 2/50
+0s - loss:  3.4793 - mse:  3.4092 - val_mse:  1.6425
+Epoch 3/50
+0s - loss:  1.4413 - mse:  1.4269 - val_mse:  1.3157
+Epoch 4/50
+0s - loss:  1.0843 - mse:  1.0770 - val_mse:  1.1720
+Epoch 5/50
+0s - loss:  0.9318 - mse:  0.9321 - val_mse:  1.1129
+Epoch 6/50
+0s - loss:  0.8044 - mse:  0.8050 - val_mse:  1.0757
+Epoch 7/50
+0s - loss:  0.6961 - mse:  0.6907 - val_mse:  1.0632
+Epoch 8/50
+0s - loss:  0.6084 - mse:  0.6105 - val_mse:  1.0722
+Epoch 9/50
+0s - loss:  0.5429 - mse:  0.5449 - val_mse:  1.0908
+Epoch 10/50
+0s - loss:  0.4919 - mse:  0.4890 - val_mse:  1.1136
+Epoch 11/50
+0s - loss:  0.4523 - mse:  0.4543 - val_mse:  1.1261
+Epoch 12/50
+0s - loss:  0.4231 - mse:  0.4207 - val_mse:  1.1469
+Epoch 13/50
+0s - loss:  0.3969 - mse:  0.3978 - val_mse:  1.1672
+Epoch 14/50
+0s - loss:  0.3762 - mse:  0.3780 - val_mse:  1.1825
+Epoch 15/50
+0s - loss:  0.3585 - mse:  0.3596 - val_mse:  1.1994
+Epoch 16/50
+0s - loss:  0.3434 - mse:  0.3412 - val_mse:  1.2159
+Epoch 17/50
+0s - loss:  0.3301 - mse:  0.3289 - val_mse:  1.2289
+Epoch 18/50
+0s - loss:  0.3181 - mse:  0.3204 - val_mse:  1.2486
+Epoch 19/50
+0s - loss:  0.3087 - mse:  0.3065 - val_mse:  1.2749
+Epoch 20/50
+0s - loss:  0.2985 - mse:  0.2975 - val_mse:  1.2848
+Epoch 21/50
+0s - loss:  0.2906 - mse:  0.2878 - val_mse:  1.3006
+Epoch 22/50
+0s - loss:  0.2820 - mse:  0.2818 - val_mse:  1.3278
+Epoch 23/50
+0s - loss:  0.2770 - mse:  0.2782 - val_mse:  1.3442
+Epoch 24/50
+0s - loss:  0.2696 - mse:  0.2729 - val_mse:  1.3483
+Epoch 25/50
+0s - loss:  0.2638 - mse:  0.2644 - val_mse:  1.3623
+Epoch 26/50
+0s - loss:  0.2583 - mse:  0.2618 - val_mse:  1.3771
+Epoch 27/50
+0s - loss:  0.2527 - mse:  0.2572 - val_mse:  1.3888
+Epoch 28/50
+0s - loss:  0.2496 - mse:  0.2486 - val_mse:  1.4075
+Epoch 29/50
+0s - loss:  0.2444 - mse:  0.2441 - val_mse:  1.4228
+Epoch 30/50
+0s - loss:  0.2408 - mse:  0.2402 - val_mse:  1.4410
+Epoch 31/50
+0s - loss:  0.2355 - mse:  0.2342 - val_mse:  1.4453
+Epoch 32/50
+0s - loss:  0.2320 - mse:  0.2329 - val_mse:  1.4668
+Epoch 33/50
+0s - loss:  0.2292 - mse:  0.2322 - val_mse:  1.4853
+Epoch 34/50
+0s - loss:  0.2245 - mse:  0.2245 - val_mse:  1.4827
+Epoch 35/50
+0s - loss:  0.2218 - mse:  0.2203 - val_mse:  1.4977
+Epoch 36/50
+0s - loss:  0.2207 - mse:  0.2195 - val_mse:  1.5046
+Epoch 37/50
+0s - loss:  0.2173 - mse:  0.2161 - val_mse:  1.5170
+Epoch 38/50
+0s - loss:  0.2131 - mse:  0.2133 - val_mse:  1.5416
+Epoch 39/50
+0s - loss:  0.2099 - mse:  0.2074 - val_mse:  1.5433
+Epoch 40/50
+0s - loss:  0.2081 - mse:  0.2085 - val_mse:  1.5615
+Epoch 41/50
+0s - loss:  0.2051 - mse:  0.2053 - val_mse:  1.5638
+Epoch 42/50
+0s - loss:  0.2027 - mse:  0.2040 - val_mse:  1.5824
+Epoch 43/50
+0s - loss:  0.2004 - mse:  0.2016 - val_mse:  1.5797
+Epoch 44/50
+0s - loss:  0.1975 - mse:  0.1977 - val_mse:  1.6125
+Epoch 45/50
+0s - loss:  0.1961 - mse:  0.1949 - val_mse:  1.6132
+Epoch 46/50
+0s - loss:  0.1939 - mse:  0.1955 - val_mse:  1.6164
+Epoch 47/50
+0s - loss:  0.1911 - mse:  0.1914 - val_mse:  1.6435
+Epoch 48/50
+0s - loss:  0.1906 - mse:  0.1904 - val_mse:  1.6462
+Epoch 49/50
+0s - loss:  0.1893 - mse:  0.1906 - val_mse:  1.6594
+Epoch 50/50
+1s - loss:  0.1870 - mse:  0.1854 - val_mse:  1.6472
+ONN Model RMSE: 1.2178
+ONN Model MAE: 0.9052
+ONN Execution Time: 35.60 seconds
+ONN CPU Usage: -0.10%
+ONN Memory Usage: 21.27 MB
+
+Training and evaluating PNN...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  11.8572 - mse:  11.7752 - val_mse:  9.5133
+Epoch 2/50
+0s - loss:  5.7975 - mse:  5.6576 - val_mse:  1.7206
+Epoch 3/50
+0s - loss:  1.3818 - mse:  1.3862 - val_mse:  1.3106
+Epoch 4/50
+0s - loss:  1.1240 - mse:  1.1243 - val_mse:  1.2096
+Epoch 5/50
+0s - loss:  1.0440 - mse:  1.0434 - val_mse:  1.1549
+Epoch 6/50
+0s - loss:  0.9876 - mse:  0.9852 - val_mse:  1.1152
+Epoch 7/50
+0s - loss:  0.9333 - mse:  0.9257 - val_mse:  1.0828
+Epoch 8/50
+0s - loss:  0.8819 - mse:  0.8756 - val_mse:  1.0577
+Epoch 9/50
+0s - loss:  0.8363 - mse:  0.8423 - val_mse:  1.0431
+Epoch 10/50
+0s - loss:  0.7984 - mse:  0.7851 - val_mse:  1.0325
+Epoch 11/50
+0s - loss:  0.7693 - mse:  0.7646 - val_mse:  1.0367
+Epoch 12/50
+0s - loss:  0.7491 - mse:  0.7565 - val_mse:  1.0362
+Epoch 13/50
+0s - loss:  0.7339 - mse:  0.7331 - val_mse:  1.0391
+Epoch 14/50
+0s - loss:  0.7182 - mse:  0.7176 - val_mse:  1.0384
+Epoch 15/50
+0s - loss:  0.7063 - mse:  0.7080 - val_mse:  1.0361
+Epoch 16/50
+0s - loss:  0.6947 - mse:  0.6894 - val_mse:  1.0343
+Epoch 17/50
+0s - loss:  0.6865 - mse:  0.6835 - val_mse:  1.0344
+Epoch 18/50
+0s - loss:  0.6762 - mse:  0.6739 - val_mse:  1.0314
+Epoch 19/50
+0s - loss:  0.6661 - mse:  0.6634 - val_mse:  1.0274
+Epoch 20/50
+0s - loss:  0.6576 - mse:  0.6619 - val_mse:  1.0241
+Epoch 21/50
+0s - loss:  0.6477 - mse:  0.6469 - val_mse:  1.0262
+Epoch 22/50
+0s - loss:  0.6397 - mse:  0.6383 - val_mse:  1.0196
+Epoch 23/50
+0s - loss:  0.6310 - mse:  0.6354 - val_mse:  1.0149
+Epoch 24/50
+0s - loss:  0.6209 - mse:  0.6163 - val_mse:  1.0151
+Epoch 25/50
+0s - loss:  0.6124 - mse:  0.6054 - val_mse:  1.0141
+Epoch 26/50
+0s - loss:  0.6043 - mse:  0.6013 - val_mse:  1.0124
+Epoch 27/50
+0s - loss:  0.5960 - mse:  0.5943 - val_mse:  1.0102
+Epoch 28/50
+0s - loss:  0.5891 - mse:  0.5920 - val_mse:  1.0150
+Epoch 29/50
+0s - loss:  0.5819 - mse:  0.5774 - val_mse:  1.0102
+Epoch 30/50
+0s - loss:  0.5741 - mse:  0.5762 - val_mse:  1.0096
+Epoch 31/50
+0s - loss:  0.5661 - mse:  0.5653 - val_mse:  1.0157
+Epoch 32/50
+0s - loss:  0.5590 - mse:  0.5571 - val_mse:  1.0169
+Epoch 33/50
+0s - loss:  0.5507 - mse:  0.5550 - val_mse:  1.0175
+Epoch 34/50
+0s - loss:  0.5434 - mse:  0.5397 - val_mse:  1.0225
+Epoch 35/50
+0s - loss:  0.5367 - mse:  0.5373 - val_mse:  1.0239
+Epoch 36/50
+0s - loss:  0.5290 - mse:  0.5318 - val_mse:  1.0293
+Epoch 37/50
+0s - loss:  0.5225 - mse:  0.5251 - val_mse:  1.0334
+Epoch 38/50
+0s - loss:  0.5124 - mse:  0.5157 - val_mse:  1.0348
+Epoch 39/50
+0s - loss:  0.5049 - mse:  0.5041 - val_mse:  1.0351
+Epoch 40/50WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+0s - loss:  0.4974 - mse:  0.4961 - val_mse:  1.0383
+Epoch 41/50
+0s - loss:  0.4891 - mse:  0.4901 - val_mse:  1.0441
+Epoch 42/50
+0s - loss:  0.4823 - mse:  0.4775 - val_mse:  1.0536
+Epoch 43/50
+0s - loss:  0.4746 - mse:  0.4716 - val_mse:  1.0510
+Epoch 44/50
+0s - loss:  0.4680 - mse:  0.4692 - val_mse:  1.0607
+Epoch 45/50
+0s - loss:  0.4603 - mse:  0.4615 - val_mse:  1.0625
+Epoch 46/50
+0s - loss:  0.4528 - mse:  0.4542 - val_mse:  1.0565
+Epoch 47/50
+0s - loss:  0.4427 - mse:  0.4420 - val_mse:  1.0618
+Epoch 48/50
+0s - loss:  0.4335 - mse:  0.4333 - val_mse:  1.0545
+Epoch 49/50
+0s - loss:  0.4240 - mse:  0.4262 - val_mse:  1.0606
+Epoch 50/50
+0s - loss:  0.4137 - mse:  0.4134 - val_mse:  1.0673
+PNN Model RMSE: 0.9517
+PNN Model MAE: 0.7224
+PNN Execution Time: 11.68 seconds
+PNN CPU Usage: -0.10%
+PNN Memory Usage: 9.22 MB
+
+Training and evaluating WDL...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  10.9876 - mse:  10.8715 - val_mse:  7.6871
+Epoch 2/50
+0s - loss:  4.0420 - mse:  3.9387 - val_mse:  1.3317
+Epoch 3/50
+0s - loss:  1.4104 - mse:  1.4026 - val_mse:  1.2692
+Epoch 4/50
+0s - loss:  1.1634 - mse:  1.1559 - val_mse:  1.2161
+Epoch 5/50
+0s - loss:  1.0672 - mse:  1.0692 - val_mse:  1.1712
+Epoch 6/50
+0s - loss:  1.0028 - mse:  0.9931 - val_mse:  1.1276
+Epoch 7/50
+0s - loss:  0.9396 - mse:  0.9378 - val_mse:  1.0895
+Epoch 8/50
+0s - loss:  0.8808 - mse:  0.8823 - val_mse:  1.0611
+Epoch 9/50
+0s - loss:  0.8316 - mse:  0.8332 - val_mse:  1.0476
+Epoch 10/50
+0s - loss:  0.7950 - mse:  0.7969 - val_mse:  1.0461
+Epoch 11/50
+0s - loss:  0.7699 - mse:  0.7807 - val_mse:  1.0486
+Epoch 12/50
+0s - loss:  0.7514 - mse:  0.7545 - val_mse:  1.0503
+Epoch 13/50
+0s - loss:  0.7345 - mse:  0.7395 - val_mse:  1.0504
+Epoch 14/50
+0s - loss:  0.7231 - mse:  0.7200 - val_mse:  1.0489
+Epoch 15/50
+0s - loss:  0.7148 - mse:  0.7207 - val_mse:  1.0492
+Epoch 16/50
+0s - loss:  0.7056 - mse:  0.7135 - val_mse:  1.0469
+Epoch 17/50
+0s - loss:  0.6969 - mse:  0.6991 - val_mse:  1.0471
+Epoch 18/50
+0s - loss:  0.6909 - mse:  0.6944 - val_mse:  1.0470
+Epoch 19/50
+0s - loss:  0.6910 - mse:  0.6910 - val_mse:  1.0384
+Epoch 20/50
+0s - loss:  0.6823 - mse:  0.6812 - val_mse:  1.0404
+Epoch 21/50
+0s - loss:  0.6765 - mse:  0.6842 - val_mse:  1.0345
+Epoch 22/50
+0s - loss:  0.6725 - mse:  0.6733 - val_mse:  1.0330
+Epoch 23/50
+0s - loss:  0.6704 - mse:  0.6612 - val_mse:  1.0307
+Epoch 24/50
+0s - loss:  0.6660 - mse:  0.6589 - val_mse:  1.0270
+Epoch 25/50
+0s - loss:  0.6650 - mse:  0.6686 - val_mse:  1.0314
+Epoch 26/50
+0s - loss:  0.6613 - mse:  0.6609 - val_mse:  1.0287
+Epoch 27/50
+0s - loss:  0.6596 - mse:  0.6623 - val_mse:  1.0239
+Epoch 28/50
+0s - loss:  0.6568 - mse:  0.6498 - val_mse:  1.0224
+Epoch 29/50
+0s - loss:  0.6539 - mse:  0.6566 - val_mse:  1.0199
+Epoch 30/50
+0s - loss:  0.6545 - mse:  0.6592 - val_mse:  1.0182
+Epoch 31/50
+0s - loss:  0.6512 - mse:  0.6513 - val_mse:  1.0190
+Epoch 32/50
+0s - loss:  0.6509 - mse:  0.6470 - val_mse:  1.0169
+Epoch 33/50
+0s - loss:  0.6478 - mse:  0.6486 - val_mse:  1.0102
+Epoch 34/50
+0s - loss:  0.6474 - mse:  0.6453 - val_mse:  1.0122
+Epoch 35/50
+0s - loss:  0.6473 - mse:  0.6506 - val_mse:  1.0101
+Epoch 36/50
+0s - loss:  0.6440 - mse:  0.6525 - val_mse:  1.0099
+Epoch 37/50
+0s - loss:  0.6415 - mse:  0.6420 - val_mse:  1.0060
+Epoch 38/50
+0s - loss:  0.6439 - mse:  0.6437 - val_mse:  1.0033
+Epoch 39/50
+0s - loss:  0.6422 - mse:  0.6423 - val_mse:  1.0037
+Epoch 40/50
+0s - loss:  0.6383 - mse:  0.6381 - val_mse:  1.0071
+Epoch 41/50
+0s - loss:  0.6364 - mse:  0.6367 - val_mse:  0.9976
+Epoch 42/50
+0s - loss:  0.6349 - mse:  0.6366 - val_mse:  0.9996
+Epoch 43/50
+0s - loss:  0.6344 - mse:  0.6332 - val_mse:  0.9960
+Epoch 44/50
+0s - loss:  0.6337 - mse:  0.6353 - val_mse:  0.9972
+Epoch 45/50
+0s - loss:  0.6340 - mse:  0.6300 - val_mse:  0.9955
+Epoch 46/50
+0s - loss:  0.6312 - mse:  0.6308 - val_mse:  0.9954
+Epoch 47/50
+0s - loss:  0.6296 - mse:  0.6401 - val_mse:  0.9917
+Epoch 48/50
+0s - loss:  0.6299 - mse:  0.6320 - val_mse:  0.9985
+Epoch 49/50
+0s - loss:  0.6288 - mse:  0.6255 - val_mse:  0.9914
+Epoch 50/50
+0s - loss:  0.6274 - mse:  0.6277 - val_mse:  0.9933
+WDL Model RMSE: 0.8843
+WDL Model MAE: 0.6874
+WDL Execution Time: 16.16 seconds
+WDL CPU Usage: 0.00%
+WDL Memory Usage: 2.25 MB
+
+Training and evaluating xDeepFM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  8.7119 - mse:  8.5516 - val_mse:  4.5503
+Epoch 2/50
+0s - loss:  2.3067 - mse:  2.2876 - val_mse:  1.9031
+Epoch 3/50
+0s - loss:  1.5380 - mse:  1.5312 - val_mse:  1.4946
+Epoch 4/50
+0s - loss:  1.3168 - mse:  1.3120 - val_mse:  1.3582
+Epoch 5/50
+0s - loss:  1.1809 - mse:  1.1763 - val_mse:  1.2647
+Epoch 6/50
+0s - loss:  1.0648 - mse:  1.0672 - val_mse:  1.1836
+Epoch 7/50
+0s - loss:  0.9610 - mse:  0.9572 - val_mse:  1.1283
+Epoch 8/50
+0s - loss:  0.8826 - mse:  0.8834 - val_mse:  1.1042
+Epoch 9/50
+0s - loss:  0.8292 - mse:  0.8267 - val_mse:  1.0953
+Epoch 10/50
+0s - loss:  0.7930 - mse:  0.7941 - val_mse:  1.0866
+Epoch 11/50
+0s - loss:  0.7645 - mse:  0.7624 - val_mse:  1.0816
+Epoch 12/50
+0s - loss:  0.7430 - mse:  0.7471 - val_mse:  1.0718
+Epoch 13/50
+0s - loss:  0.7267 - mse:  0.7260 - val_mse:  1.0630
+Epoch 14/50
+0s - loss:  0.7155 - mse:  0.7183 - val_mse:  1.0594
+Epoch 15/50
+0s - loss:  0.7018 - mse:  0.6964 - val_mse:  1.0512
+Epoch 16/50
+0s - loss:  0.6912 - mse:  0.6876 - val_mse:  1.0416
+Epoch 17/50
+0s - loss:  0.6857 - mse:  0.6928 - val_mse:  1.0382
+Epoch 18/50
+0s - loss:  0.6773 - mse:  0.6781 - val_mse:  1.0354
+Epoch 19/50
+0s - loss:  0.6732 - mse:  0.6724 - val_mse:  1.0324
+Epoch 20/50
+0s - loss:  0.6689 - mse:  0.6720 - val_mse:  1.0294
+Epoch 21/50
+0s - loss:  0.6651 - mse:  0.6585 - val_mse:  1.0298
+Epoch 22/50
+0s - loss:  0.6609 - mse:  0.6631 - val_mse:  1.0185
+Epoch 23/50
+0s - loss:  0.6583 - mse:  0.6609 - val_mse:  1.0203
+Epoch 24/50
+0s - loss:  0.6548 - mse:  0.6514 - val_mse:  1.0178
+Epoch 25/50
+0s - loss:  0.6527 - mse:  0.6493 - val_mse:  1.0129
+Epoch 26/50
+0s - loss:  0.6497 - mse:  0.6498 - val_mse:  1.0162
+Epoch 27/50
+0s - loss:  0.6491 - mse:  0.6455 - val_mse:  1.0085
+Epoch 28/50
+0s - loss:  0.6462 - mse:  0.6444 - val_mse:  1.0069
+Epoch 29/50
+0s - loss:  0.6441 - mse:  0.6368 - val_mse:  1.0052
+Epoch 30/50
+0s - loss:  0.6429 - mse:  0.6483 - val_mse:  1.0046
+Epoch 31/50
+0s - loss:  0.6395 - mse:  0.6426 - val_mse:  1.0015
+Epoch 32/50
+0s - loss:  0.6411 - mse:  0.6426 - val_mse:  1.0022
+Epoch 33/50
+0s - loss:  0.6361 - mse:  0.6380 - val_mse:  1.0006
+Epoch 34/50
+0s - loss:  0.6362 - mse:  0.6373 - val_mse:  0.9934
+Epoch 35/50
+0s - loss:  0.6336 - mse:  0.6286 - val_mse:  0.9958
+Epoch 36/50
+0s - loss:  0.6329 - mse:  0.6397 - val_mse:  0.9968
+Epoch 37/50
+0s - loss:  0.6306 - mse:  0.6306 - val_mse:  0.9903
+Epoch 38/50
+0s - loss:  0.6285 - mse:  0.6291 - val_mse:  0.9917
+Epoch 39/50
+0s - loss:  0.6289 - mse:  0.6362 - val_mse:  0.9902
+Epoch 40/50
+0s - loss:  0.6265 - mse:  0.6313 - val_mse:  0.9872
+Epoch 41/50
+0s - loss:  0.6249 - mse:  0.6235 - val_mse:  0.9852
+Epoch 42/50
+0s - loss:  0.6238 - mse:  0.6271 - val_mse:  0.9891
+Epoch 43/50
+0s - loss:  0.6265 - mse:  0.6259 - val_mse:  0.9884
+Epoch 44/50
+0s - loss:  0.6239 - mse:  0.6217 - val_mse:  0.9905
+Epoch 45/50
+0s - loss:  0.6248 - mse:  0.6252 - val_mse:  0.9858
+Epoch 46/50
+0s - loss:  0.6223 - mse:  0.6248 - val_mse:  0.9730
+Epoch 47/50
+0s - loss:  0.6206 - mse:  0.6227 - val_mse:  0.9827
+Epoch 48/50
+0s - loss:  0.6189 - mse:  0.6228 - val_mse:  0.9798
+Epoch 49/50
+0s - loss:  0.6179 - mse:  0.6156 - val_mse:  0.9846
+Epoch 50/50
+0s - loss:  0.6177 - mse:  0.6154 - val_mse:  0.9759
+xDeepFM Model RMSE: 0.8788
+xDeepFM Model MAE: 0.6827
+xDeepFM Execution Time: 13.52 seconds
+xDeepFM CPU Usage: 0.30%
+xDeepFM Memory Usage: 51.16 MB
+
+Training and evaluating IFM...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  12.6888 - mse:  12.6891 - val_mse:  12.0825
+Epoch 2/50
+0s - loss:  11.1942 - mse:  11.1668 - val_mse:  10.3311
+Epoch 3/50
+0s - loss:  9.2726 - mse:  9.2626 - val_mse:  8.2170
+Epoch 4/50
+0s - loss:  7.1106 - mse:  7.0407 - val_mse:  6.0354
+Epoch 5/50
+0s - loss:  5.0429 - mse:  5.0103 - val_mse:  4.1352WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+Epoch 6/50
+0s - loss:  3.3952 - mse:  3.3586 - val_mse:  2.8128
+Epoch 7/50
+0s - loss:  2.3839 - mse:  2.3692 - val_mse:  2.1261
+Epoch 8/50
+0s - loss:  1.9312 - mse:  1.9289 - val_mse:  1.8938
+Epoch 9/50
+0s - loss:  1.8092 - mse:  1.8119 - val_mse:  1.8461
+Epoch 10/50
+0s - loss:  1.7845 - mse:  1.7873 - val_mse:  1.8375
+Epoch 11/50
+0s - loss:  1.7779 - mse:  1.7843 - val_mse:  1.8309
+Epoch 12/50
+0s - loss:  1.7716 - mse:  1.7668 - val_mse:  1.8236
+Epoch 13/50
+0s - loss:  1.7643 - mse:  1.7699 - val_mse:  1.8254
+Epoch 14/50
+0s - loss:  1.7613 - mse:  1.7602 - val_mse:  1.8123
+Epoch 15/50
+0s - loss:  1.7519 - mse:  1.7578 - val_mse:  1.8038
+Epoch 16/50
+0s - loss:  1.7450 - mse:  1.7481 - val_mse:  1.7974
+Epoch 17/50
+0s - loss:  1.7347 - mse:  1.7375 - val_mse:  1.7925
+Epoch 18/50
+0s - loss:  1.7261 - mse:  1.7251 - val_mse:  1.7800
+Epoch 19/50
+0s - loss:  1.6933 - mse:  1.6965 - val_mse:  1.7427
+Epoch 20/50
+0s - loss:  1.5453 - mse:  1.5369 - val_mse:  1.6389
+Epoch 21/50
+0s - loss:  1.3459 - mse:  1.3451 - val_mse:  1.6129
+Epoch 22/50
+0s - loss:  1.2444 - mse:  1.2456 - val_mse:  1.5999
+Epoch 23/50
+0s - loss:  1.2076 - mse:  1.2157 - val_mse:  1.6798
+Epoch 24/50
+0s - loss:  1.1839 - mse:  1.1786 - val_mse:  1.6497
+Epoch 25/50
+0s - loss:  1.1573 - mse:  1.1583 - val_mse:  1.6542
+Epoch 26/50
+0s - loss:  1.1469 - mse:  1.1472 - val_mse:  1.6457
+Epoch 27/50
+0s - loss:  1.1316 - mse:  1.1382 - val_mse:  1.6515
+Epoch 28/50
+0s - loss:  1.1295 - mse:  1.1259 - val_mse:  1.6950
+Epoch 29/50
+0s - loss:  1.1232 - mse:  1.1343 - val_mse:  1.7609
+Epoch 30/50
+0s - loss:  1.1210 - mse:  1.1263 - val_mse:  1.6711
+Epoch 31/50
+0s - loss:  1.0995 - mse:  1.1031 - val_mse:  1.6726
+Epoch 32/50
+0s - loss:  1.0909 - mse:  1.0899 - val_mse:  1.7093
+Epoch 33/50
+0s - loss:  1.0816 - mse:  1.0806 - val_mse:  1.6911
+Epoch 34/50
+0s - loss:  1.0712 - mse:  1.0745 - val_mse:  1.6769
+Epoch 35/50
+0s - loss:  1.0687 - mse:  1.0836 - val_mse:  1.6874
+Epoch 36/50
+0s - loss:  1.0570 - mse:  1.0700 - val_mse:  1.6791
+Epoch 37/50
+0s - loss:  1.0549 - mse:  1.0580 - val_mse:  1.6978
+Epoch 38/50
+0s - loss:  1.0478 - mse:  1.0464 - val_mse:  1.6891
+Epoch 39/50
+0s - loss:  1.0391 - mse:  1.0337 - val_mse:  1.6841
+Epoch 40/50
+0s - loss:  1.0374 - mse:  1.0362 - val_mse:  1.6791
+Epoch 41/50
+0s - loss:  1.0318 - mse:  1.0349 - val_mse:  1.6789
+Epoch 42/50
+0s - loss:  1.0271 - mse:  1.0172 - val_mse:  1.6807
+Epoch 43/50
+0s - loss:  1.0234 - mse:  1.0335 - val_mse:  1.6769
+Epoch 44/50
+0s - loss:  1.0137 - mse:  1.0220 - val_mse:  1.6613
+Epoch 45/50
+0s - loss:  1.0087 - mse:  1.0177 - val_mse:  1.6614
+Epoch 46/50
+0s - loss:  1.0046 - mse:  1.0079 - val_mse:  1.6595
+Epoch 47/50
+0s - loss:  0.9981 - mse:  1.0020 - val_mse:  1.6564
+Epoch 48/50
+0s - loss:  0.9951 - mse:  0.9997 - val_mse:  1.6460
+Epoch 49/50
+0s - loss:  0.9808 - mse:  0.9860 - val_mse:  1.6483
+Epoch 50/50
+0s - loss:  0.9783 - mse:  0.9698 - val_mse:  1.6418
+IFM Model RMSE: 1.2194
+IFM Model MAE: 0.9654
+IFM Execution Time: 13.34 seconds
+IFM CPU Usage: 0.10%
+IFM Memory Usage: 6.61 MB
+
+Training and evaluating MLR...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  13.0146 - mse:  13.0088 - val_mse:  12.8558
+Epoch 2/50
+0s - loss:  12.4748 - mse:  12.4251 - val_mse:  12.3082
+Epoch 3/50
+0s - loss:  11.9163 - mse:  11.8749 - val_mse:  11.7399
+Epoch 4/50
+0s - loss:  11.3369 - mse:  11.3224 - val_mse:  11.1503
+Epoch 5/50
+0s - loss:  10.7381 - mse:  10.7284 - val_mse:  10.5442
+Epoch 6/50
+0s - loss:  10.1264 - mse:  10.1053 - val_mse:  9.9257
+Epoch 7/50
+1s - loss:  9.5043 - mse:  9.4480 - val_mse:  9.3050
+Epoch 8/50
+0s - loss:  8.8819 - mse:  8.8653 - val_mse:  8.6854
+Epoch 9/50
+0s - loss:  8.2655 - mse:  8.2593 - val_mse:  8.0721
+Epoch 10/50
+0s - loss:  7.6565 - mse:  7.6493 - val_mse:  7.4762
+Epoch 11/50
+0s - loss:  7.0679 - mse:  7.0537 - val_mse:  6.8968
+Epoch 12/50
+0s - loss:  6.4986 - mse:  6.5045 - val_mse:  6.3427
+Epoch 13/50
+0s - loss:  5.9548 - mse:  5.9353 - val_mse:  5.8176
+Epoch 14/50
+0s - loss:  5.4420 - mse:  5.4549 - val_mse:  5.3216
+Epoch 15/50
+0s - loss:  4.9600 - mse:  4.9225 - val_mse:  4.8581
+Epoch 16/50
+0s - loss:  4.5111 - mse:  4.4895 - val_mse:  4.4291
+Epoch 17/50
+0s - loss:  4.0983 - mse:  4.0811 - val_mse:  4.0323
+Epoch 18/50
+0s - loss:  3.7158 - mse:  3.6890 - val_mse:  3.6738
+Epoch 19/50
+0s - loss:  3.3724 - mse:  3.3683 - val_mse:  3.3448
+Epoch 20/50
+0s - loss:  3.0575 - mse:  3.0526 - val_mse:  3.0514
+Epoch 21/50
+0s - loss:  2.7762 - mse:  2.7737 - val_mse:  2.7887
+Epoch 22/50
+0s - loss:  2.5264 - mse:  2.5332 - val_mse:  2.5527
+Epoch 23/50
+0s - loss:  2.3033 - mse:  2.2861 - val_mse:  2.3440
+Epoch 24/50
+0s - loss:  2.1059 - mse:  2.0904 - val_mse:  2.1617
+Epoch 25/50
+0s - loss:  1.9331 - mse:  1.9238 - val_mse:  2.0024
+Epoch 26/50
+0s - loss:  1.7826 - mse:  1.7822 - val_mse:  1.8631
+Epoch 27/50
+0s - loss:  1.6513 - mse:  1.6444 - val_mse:  1.7432
+Epoch 28/50
+0s - loss:  1.5386 - mse:  1.5499 - val_mse:  1.6392
+Epoch 29/50
+0s - loss:  1.4409 - mse:  1.4359 - val_mse:  1.5503
+Epoch 30/50
+0s - loss:  1.3578 - mse:  1.3477 - val_mse:  1.4743
+Epoch 31/50
+0s - loss:  1.2860 - mse:  1.2878 - val_mse:  1.4107
+Epoch 32/50
+0s - loss:  1.2259 - mse:  1.2233 - val_mse:  1.3561
+Epoch 33/50
+0s - loss:  1.1740 - mse:  1.1759 - val_mse:  1.3110
+Epoch 34/50
+0s - loss:  1.1309 - mse:  1.1319 - val_mse:  1.2725
+Epoch 35/50
+0s - loss:  1.0946 - mse:  1.0945 - val_mse:  1.2395
+Epoch 36/50
+0s - loss:  1.0630 - mse:  1.0616 - val_mse:  1.2130
+Epoch 37/50
+0s - loss:  1.0370 - mse:  1.0401 - val_mse:  1.1904
+Epoch 38/50
+0s - loss:  1.0150 - mse:  1.0061 - val_mse:  1.1715
+Epoch 39/50
+0s - loss:  0.9961 - mse:  0.9956 - val_mse:  1.1559
+Epoch 40/50
+0s - loss:  0.9803 - mse:  0.9724 - val_mse:  1.1424
+Epoch 41/50
+0s - loss:  0.9665 - mse:  0.9660 - val_mse:  1.1313
+Epoch 42/50
+0s - loss:  0.9548 - mse:  0.9575 - val_mse:  1.1219
+Epoch 43/50
+0s - loss:  0.9446 - mse:  0.9407 - val_mse:  1.1139
+Epoch 44/50
+0s - loss:  0.9355 - mse:  0.9359 - val_mse:  1.1073
+Epoch 45/50
+0s - loss:  0.9275 - mse:  0.9298 - val_mse:  1.1015
+Epoch 46/50
+0s - loss:  0.9206 - mse:  0.9202 - val_mse:  1.0964
+Epoch 47/50
+0s - loss:  0.9141 - mse:  0.9111 - val_mse:  1.0919
+Epoch 48/50
+0s - loss:  0.9082 - mse:  0.9115 - val_mse:  1.0879
+Epoch 49/50
+0s - loss:  0.9028 - mse:  0.9019 - val_mse:  1.0844
+Epoch 50/50
+0s - loss:  0.8976 - mse:  0.9055 - val_mse:  1.0813
+MLR Model RMSE: 0.9661
+MLR Model MAE: 0.7843
+MLR Execution Time: 20.10 seconds
+MLR CPU Usage: 0.10%
+MLR Memory Usage: 12.75 MB
+
+Training and evaluating AFN...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  9.1596 - mse:  9.1069 - val_mse:  9.6724
+Epoch 2/50
+0s - loss:  8.1802 - mse:  8.1797 - val_mse:  7.6641
+Epoch 3/50
+0s - loss:  7.5517 - mse:  7.5146 - val_mse:  7.6598
+Epoch 4/50
+0s - loss:  7.5510 - mse:  7.5128 - val_mse:  7.6598
+Epoch 5/50
+0s - loss:  7.5510 - mse:  7.5592 - val_mse:  7.6598
+Epoch 6/50
+0s - loss:  7.5510 - mse:  7.5352 - val_mse:  7.6598
+Epoch 7/50
+0s - loss:  7.5510 - mse:  7.5533 - val_mse:  7.6598
+Epoch 8/50
+0s - loss:  7.5510 - mse:  7.5285 - val_mse:  7.6598
+Epoch 9/50
+0s - loss:  7.5510 - mse:  7.5254 - val_mse:  7.6598
+Epoch 10/50
+0s - loss:  7.5510 - mse:  7.5383 - val_mse:  7.6598
+Epoch 11/50
+0s - loss:  7.5510 - mse:  7.5659 - val_mse:  7.6598
+Epoch 12/50
+0s - loss:  7.5510 - mse:  7.5438 - val_mse:  7.6598
+Epoch 13/50
+0s - loss:  7.5510 - mse:  7.5647 - val_mse:  7.6598
+Epoch 14/50
+0s - loss:  7.5510 - mse:  7.5285 - val_mse:  7.6598
+Epoch 15/50
+0s - loss:  7.5510 - mse:  7.5494 - val_mse:  7.6598
+Epoch 16/50
+0s - loss:  7.5510 - mse:  7.5242 - val_mse:  7.6598
+Epoch 17/50
+0s - loss:  7.5510 - mse:  7.5710 - val_mse:  7.6598
+Epoch 18/50
+0s - loss:  7.5510 - mse:  7.5616 - val_mse:  7.6598
+Epoch 19/50
+0s - loss:  7.5510 - mse:  7.5450 - val_mse:  7.6598
+Epoch 20/50
+0s - loss:  7.5510 - mse:  7.5379 - val_mse:  7.6598
+Epoch 21/50
+0s - loss:  7.5510 - mse:  7.5718 - val_mse:  7.6598
+Epoch 22/50
+0s - loss:  7.5510 - mse:  7.5379 - val_mse:  7.6598
+Epoch 23/50
+0s - loss:  7.5510 - mse:  7.5553 - val_mse:  7.6598
+Epoch 24/50
+0s - loss:  7.5510 - mse:  7.5576 - val_mse:  7.6598WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+WARNING:tensorflow:Early stopping conditioned on metric `val_loss` which is not available. Available metrics are: loss,mse,val_mse
+
+Epoch 25/50
+0s - loss:  7.5510 - mse:  7.5368 - val_mse:  7.6598
+Epoch 26/50
+0s - loss:  7.5510 - mse:  7.5379 - val_mse:  7.6598
+Epoch 27/50
+0s - loss:  7.5510 - mse:  7.5029 - val_mse:  7.6598
+Epoch 28/50
+0s - loss:  7.5510 - mse:  7.5442 - val_mse:  7.6598
+Epoch 29/50
+0s - loss:  7.5510 - mse:  7.5490 - val_mse:  7.6598
+Epoch 30/50
+0s - loss:  7.5510 - mse:  7.5560 - val_mse:  7.6598
+Epoch 31/50
+0s - loss:  7.5510 - mse:  7.6029 - val_mse:  7.6598
+Epoch 32/50
+0s - loss:  7.5510 - mse:  7.5234 - val_mse:  7.6598
+Epoch 33/50
+0s - loss:  7.5510 - mse:  7.5655 - val_mse:  7.6598
+Epoch 34/50
+0s - loss:  7.5510 - mse:  7.5356 - val_mse:  7.6598
+Epoch 35/50
+0s - loss:  7.5510 - mse:  7.5517 - val_mse:  7.6598
+Epoch 36/50
+0s - loss:  7.5510 - mse:  7.5749 - val_mse:  7.6598
+Epoch 37/50
+0s - loss:  7.5510 - mse:  7.5671 - val_mse:  7.6598
+Epoch 38/50
+0s - loss:  7.5510 - mse:  7.5631 - val_mse:  7.6598
+Epoch 39/50
+0s - loss:  7.5510 - mse:  7.5730 - val_mse:  7.6598
+Epoch 40/50
+0s - loss:  7.5510 - mse:  7.5714 - val_mse:  7.6598
+Epoch 41/50
+0s - loss:  7.5510 - mse:  7.6328 - val_mse:  7.6598
+Epoch 42/50
+0s - loss:  7.5510 - mse:  7.5694 - val_mse:  7.6598
+Epoch 43/50
+0s - loss:  7.5510 - mse:  7.5486 - val_mse:  7.6598
+Epoch 44/50
+0s - loss:  7.5510 - mse:  7.5375 - val_mse:  7.6598
+Epoch 45/50
+0s - loss:  7.5510 - mse:  7.5348 - val_mse:  7.6598
+Epoch 46/50
+0s - loss:  7.5510 - mse:  7.5726 - val_mse:  7.6598
+Epoch 47/50
+0s - loss:  7.5510 - mse:  7.5549 - val_mse:  7.6598
+Epoch 48/50
+0s - loss:  7.5510 - mse:  7.5415 - val_mse:  7.6598
+Epoch 49/50
+0s - loss:  7.5510 - mse:  7.5234 - val_mse:  7.6598
+Epoch 50/50
+0s - loss:  7.5510 - mse:  7.5230 - val_mse:  7.6598
+AFN Model RMSE: 2.7532
+AFN Model MAE: 2.3593
+AFN Execution Time: 12.19 seconds
+AFN CPU Usage: -0.20%
+AFN Memory Usage: 75.43 MB
+
+Training and evaluating MultiHeadAttentionModel...
+cuda
+Train on 4443 samples, validate on 1111 samples, 18 steps per epoch
+Epoch 1/50
+0s - loss:  13.4280 - mse:  13.3116 - val_mse:  10.4886
+Epoch 2/50
+0s - loss:  3.9888 - mse:  3.8899 - val_mse:  1.6452
+Epoch 3/50
+0s - loss:  1.3508 - mse:  1.3355 - val_mse:  1.0535
+Epoch 4/50
+0s - loss:  0.9188 - mse:  0.9057 - val_mse:  0.9862
+Epoch 5/50
+1s - loss:  0.8172 - mse:  0.8167 - val_mse:  0.9671
+Epoch 6/50
+0s - loss:  0.7773 - mse:  0.7785 - val_mse:  0.9530
+Epoch 7/50
+0s - loss:  0.7329 - mse:  0.7261 - val_mse:  0.9260
+Epoch 8/50
+0s - loss:  0.6805 - mse:  0.6769 - val_mse:  0.9129
+Epoch 9/50
+0s - loss:  0.6397 - mse:  0.6348 - val_mse:  0.9073
+Epoch 10/50
+0s - loss:  0.6046 - mse:  0.6040 - val_mse:  0.8937
+Epoch 11/50
+0s - loss:  0.5797 - mse:  0.5746 - val_mse:  0.8982
+Epoch 12/50
+0s - loss:  0.5533 - mse:  0.5504 - val_mse:  0.8917
+Epoch 13/50
+0s - loss:  0.5324 - mse:  0.5351 - val_mse:  0.8992
+Epoch 14/50
+0s - loss:  0.5205 - mse:  0.5171 - val_mse:  0.9083
+Epoch 15/50
+0s - loss:  0.5169 - mse:  0.5141 - val_mse:  0.9088
+Epoch 16/50
+0s - loss:  0.5050 - mse:  0.5074 - val_mse:  0.8878
+Epoch 17/50
+0s - loss:  0.4874 - mse:  0.4881 - val_mse:  0.8784
+Epoch 18/50
+0s - loss:  0.4802 - mse:  0.4823 - val_mse:  0.8801
+Epoch 19/50
+0s - loss:  0.4635 - mse:  0.4632 - val_mse:  0.8903
+Epoch 20/50
+0s - loss:  0.4562 - mse:  0.4536 - val_mse:  0.8879
+Epoch 21/50
+0s - loss:  0.4483 - mse:  0.4440 - val_mse:  0.9087
+Epoch 22/50
+0s - loss:  0.4351 - mse:  0.4318 - val_mse:  0.8900
+Epoch 23/50
+0s - loss:  0.4238 - mse:  0.4237 - val_mse:  0.9015
+Epoch 24/50
+0s - loss:  0.4146 - mse:  0.4124 - val_mse:  0.9159
+Epoch 25/50
+0s - loss:  0.4104 - mse:  0.4053 - val_mse:  0.8744
+Epoch 26/50
+0s - loss:  0.4041 - mse:  0.4040 - val_mse:  0.9226
+Epoch 27/50
+0s - loss:  0.4024 - mse:  0.3989 - val_mse:  0.9013
+Epoch 28/50
+0s - loss:  0.3799 - mse:  0.3766 - val_mse:  0.8971
+Epoch 29/50
+0s - loss:  0.3696 - mse:  0.3666 - val_mse:  0.8992
+Epoch 30/50
+0s - loss:  0.3589 - mse:  0.3565 - val_mse:  0.9044
+Epoch 31/50
+0s - loss:  0.3616 - mse:  0.3575 - val_mse:  0.9227
+Epoch 32/50
+0s - loss:  0.3501 - mse:  0.3482 - val_mse:  0.8847
+Epoch 33/50
+0s - loss:  0.3568 - mse:  0.3635 - val_mse:  0.9287
+Epoch 34/50
+0s - loss:  0.3452 - mse:  0.3426 - val_mse:  0.8918
+Epoch 35/50
+0s - loss:  0.3294 - mse:  0.3250 - val_mse:  0.8867
+Epoch 36/50
+0s - loss:  0.3216 - mse:  0.3154 - val_mse:  0.8973
+Epoch 37/50
+0s - loss:  0.3191 - mse:  0.3242 - val_mse:  0.9034
+Epoch 38/50
+0s - loss:  0.3121 - mse:  0.3115 - val_mse:  0.8772
+Epoch 39/50
+0s - loss:  0.2927 - mse:  0.2886 - val_mse:  0.8712
+Epoch 40/50
+0s - loss:  0.2786 - mse:  0.2777 - val_mse:  0.9267
+Epoch 41/50
+0s - loss:  0.2711 - mse:  0.2676 - val_mse:  0.9114
+Epoch 42/50
+0s - loss:  0.2736 - mse:  0.2694 - val_mse:  0.9018
+Epoch 43/50
+0s - loss:  0.2715 - mse:  0.2673 - val_mse:  0.9047
+Epoch 44/50
+0s - loss:  0.2569 - mse:  0.2659 - val_mse:  0.9281
+Epoch 45/50
+0s - loss:  0.2479 - mse:  0.2530 - val_mse:  0.9887
+Epoch 46/50
+0s - loss:  0.2512 - mse:  0.2491 - val_mse:  0.9630
+Epoch 47/50
+0s - loss:  0.2388 - mse:  0.2372 - val_mse:  0.9384
+Epoch 48/50
+0s - loss:  0.2284 - mse:  0.2261 - val_mse:  0.9188
+Epoch 49/50
+0s - loss:  0.2290 - mse:  0.2257 - val_mse:  0.9212
+Epoch 50/50
+0s - loss:  0.2296 - mse:  0.2275 - val_mse:  0.9670
+MultiHeadAttentionModel Model RMSE: 0.8811
+MultiHeadAttentionModel Model MAE: 0.6398
+MultiHeadAttentionModel Execution Time: 14.00 seconds
+MultiHeadAttentionModel CPU Usage: 0.00%
+MultiHeadAttentionModel Memory Usage: 10.40 MB
+
+Final Results:
+AFM - RMSE: 1.0775, MAE: 0.9036, Time: 35.75s, CPU: -0.10%, Memory: 2206.64MB
+AutoInt - RMSE: 0.8897, MAE: 0.6960, Time: 19.73s, CPU: 0.10%, Memory: 1.64MB
+CCPM - RMSE: 1.1788, MAE: 0.9371, Time: 23.47s, CPU: -0.10%, Memory: 610.74MB
+DCN - RMSE: 0.8821, MAE: 0.6868, Time: 19.81s, CPU: 0.10%, Memory: 0.18MB
+DCNMix - RMSE: 0.8705, MAE: 0.6420, Time: 28.65s, CPU: 0.40%, Memory: 15.30MB
+DeepFM - RMSE: 0.8850, MAE: 0.6879, Time: 16.62s, CPU: 0.30%, Memory: 19.86MB
+DIFM - RMSE: 1.3077, MAE: 1.0266, Time: 19.19s, CPU: 0.10%, Memory: 4.38MB
+FiBiNET - RMSE: 0.9466, MAE: 0.7288, Time: 30.20s, CPU: -0.10%, Memory: 11.41MB
+NFM - RMSE: 0.9313, MAE: 0.7141, Time: 15.27s, CPU: 0.00%, Memory: 13.29MB
+ONN - RMSE: 1.2178, MAE: 0.9052, Time: 35.60s, CPU: -0.10%, Memory: 21.27MB
+PNN - RMSE: 0.9517, MAE: 0.7224, Time: 11.68s, CPU: -0.10%, Memory: 9.22MB
+WDL - RMSE: 0.8843, MAE: 0.6874, Time: 16.16s, CPU: 0.00%, Memory: 2.25MB
+xDeepFM - RMSE: 0.8788, MAE: 0.6827, Time: 13.52s, CPU: 0.30%, Memory: 51.16MB
+IFM - RMSE: 1.2194, MAE: 0.9654, Time: 13.34s, CPU: 0.10%, Memory: 6.61MB
+MLR - RMSE: 0.9661, MAE: 0.7843, Time: 20.10s, CPU: 0.10%, Memory: 12.75MB
+AFN - RMSE: 2.7532, MAE: 2.3593, Time: 12.19s, CPU: -0.20%, Memory: 75.43MB
+MultiHeadAttentionModel - RMSE: 0.8811, MAE: 0.6398, Time: 14.00s, CPU: 0.00%, Memory: 10.40MB
