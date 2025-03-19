@@ -22,16 +22,16 @@ Run the training script with:
 ./run.sh
 ```
 
-## Training Process
-![Training Process](./outputs/plot.pdf)
+## Comparison of the performance of different models across training and validation sets
+![Comparison of the performance of different models across training and validation sets](./outputs/plot.png)
 
 ## File Structure
 ```
-├── outputs/		          # Outputs from model training
-├── ITM-Rec/		          # Datasets used for training and evaluation
+├── outputs/		        # Outputs from model training
+├── ITM-Rec/		        # Datasets used for training and evaluation
 ├── run.sh		            # Script to execute training
 ├── requirements.txt	    # Required dependencies
-├── README.md		          # Description
+├── README.md		        # Description
 ```
 
 ## Citation
