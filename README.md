@@ -27,11 +27,11 @@ Run the training script with:
 
 ## File Structure
 ```
-├── outputs/		    # Outputs from model training
-├── ITM-Rec/		    # Datasets used for training and evaluation
-├── run.sh		        # Script to execute training
-├── requirements.txt	# Required dependencies
-├── README.md		    # Description
+├── outputs/		          # Outputs from model training
+├── ITM-Rec/		          # Datasets used for training and evaluation
+├── run.sh		            # Script to execute training
+├── requirements.txt	    # Required dependencies
+├── README.md		          # Description
 ```
 
 ## Citation
