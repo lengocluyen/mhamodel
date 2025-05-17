@@ -11,27 +11,19 @@ Our model leverages **multi-head attention** to integrate multiple criteria and 
 - **Multi-Criteria Learning**: Incorporates multiple decision factors into recommendations.
 - **Context-Awareness**: Adapts to dynamic group interactions.
 
-## Installation
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-Run the training script with:
-```bash
-./run.sh
-```
-
 ## Comparison of the performance of different models across training and validation sets
 ![Comparison of the performance of different models across training and validation sets](./outputs/plot.png)
 
 ## File Structure
 ```
-├── outputs/		        # Outputs from model training
-├── ITM-Rec/		        # Datasets used for training and evaluation
-├── run.sh		            # Script to execute training
+├── outputs/		          # Outputs from model training
+├── ITM-Rec/		          # ITM-Rec Datasets 
+├── ml-100k/		          # MovieLens-100k Datasets 
 ├── requirements.txt	    # Required dependencies
-├── README.md		        # Description
+├── Visualization.ipynb 	# Visualization of results
+├── itm_run.ipynb       	# Running and Results on ITM-Rec
+├── movielens_run.ipynb   # Running and Results on Movielens 
+├── README.md		          # Description
 ```
 
 ## Citation

@@ -1,0 +1,3 @@
+Object,Quantity,Nb of Item,Contexts,Criteria,Rating Scale,Data Sparsity,Nb of Rating
+Individual,943,1682,"TimeOfDay, DayType, Season","Storyline, Visuals, Emotion","[1,5]",93.70%,100000
+Group,250,,,,,83.55%,100000

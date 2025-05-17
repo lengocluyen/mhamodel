@@ -5,127 +5,132 @@ from deepctr_torch.inputs import SparseFeat, DenseFeat
 from deepctr_torch.models.basemodel import BaseModel
 from deepctr_torch.layers import PredictionLayer
 
-class MultiHeadSelfAttention(nn.Module):
-    def __init__(self, embed_dim, num_heads):
-        super(MultiHeadSelfAttention, self).__init__()
-        self.multihead_attn = nn.MultiheadAttention(embed_dim=embed_dim, num_heads=num_heads)
-        self.layernorm = nn.LayerNorm(embed_dim)
+class PositionalEncoding(nn.Module):
+    def __init__(self, num_fields, embed_dim):
+        super().__init__()
+        self.pos_embed = nn.Parameter(torch.randn(1, num_fields, embed_dim))
 
     def forward(self, x):
-        # x shape: (batch_size, seq_len, embed_dim)
-        x = x.transpose(0, 1)  # Shape: (seq_len, batch_size, embed_dim)
-        attn_output, _ = self.multihead_attn(x, x, x)
-        attn_output = x + attn_output  # Residual connection
-        attn_output = self.layernorm(attn_output)
-        attn_output = attn_output.transpose(0, 1)  # Shape: (batch_size, seq_len, embed_dim)
-        return attn_output
+        return x + self.pos_embed
+
+class MultiHeadSelfAttention(nn.Module):
+    def __init__(self, embed_dim, num_heads, dropout=0.2):
+        super().__init__()
+        self.attn = nn.MultiheadAttention(embed_dim, num_heads, dropout=dropout, batch_first=True)
+        self.norm1 = nn.LayerNorm(embed_dim)
+        self.norm2 = nn.LayerNorm(embed_dim)
+        self.ffn = nn.Sequential(
+            nn.Linear(embed_dim, embed_dim * 4),
+            nn.GELU(),
+            nn.Dropout(dropout),
+            nn.Linear(embed_dim * 4, embed_dim)
+        )
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        attn_out, _ = self.attn(x, x, x)
+        x = self.norm1(x + self.dropout(attn_out))
+        ffn_out = self.ffn(x)
+        return self.norm2(x + self.dropout(ffn_out))
+
+class CrossNetwork(nn.Module):
+    def __init__(self, input_dim, num_layers=2):
+        super().__init__()
+        self.num_layers = num_layers
+        self.weights = nn.ModuleList([nn.Linear(input_dim, 1, bias=True) for _ in range(num_layers)])
+
+    def forward(self, x0):
+        x = x0
+        for layer in self.weights:
+            # cross: x0 * (w^T x) + b + x
+            w = layer.weight.view(-1, 1)
+            b = layer.bias
+            x = x0 * (x @ w).expand_as(x0) + b + x
+        return x
 
 class MultiHeadAttentionModel(BaseModel):
-    def __init__(self,
-                 linear_feature_columns,
-                 dnn_feature_columns,
-                 num_heads=4,
-                 dnn_hidden_units=(256, 128),
-                 l2_reg_linear=1e-5,
-                 l2_reg_embedding=1e-5,
-                 l2_reg_dnn=0,
-                 dnn_dropout=0,
-                 init_std=0.0001,
-                 seed=1024,
-                 task='binary',
-                 device='cpu',
-                 gpus=None):
-        
-        super(MultiHeadAttentionModel, self).__init__(linear_feature_columns, dnn_feature_columns,
-                                                      l2_reg_linear=l2_reg_linear,
-                                                      l2_reg_embedding=l2_reg_embedding,
-                                                      init_std=init_std, seed=seed,
-                                                      task=task, device=device, gpus=gpus)
-        
-        self.num_heads = num_heads
-        self.dnn_hidden_units = dnn_hidden_units
-        self.task = task
-        self.device = device
-
-        # Separate sparse and dense feature columns
-        self.sparse_feature_columns = list(filter(lambda x: isinstance(x, SparseFeat), self.dnn_feature_columns))
-        self.dense_feature_columns = list(filter(lambda x: isinstance(x, DenseFeat), self.dnn_feature_columns))
-
-        # Embedding dimension
-        self.att_embedding_size = self.embedding_size  # Should be equal to embedding_dim
-
-        # Multi-Head Self-Attention Layer
-        self.multihead_attention = MultiHeadSelfAttention(self.att_embedding_size, num_heads)
-        
-        # Project dense features into embedding space
-        if len(self.dense_feature_columns) > 0:
-            num_dense_features = len(self.dense_feature_columns)
-            self.dense_projection = nn.Linear(num_dense_features, num_dense_features * self.att_embedding_size)
+    def __init__(
+        self,
+        linear_feature_columns,
+        dnn_feature_columns,
+        num_heads=4,
+        dnn_hidden_units=(256, 128),
+        embed_dim=8,
+        dnn_dropout=0.5,
+        l2_reg_linear=1e-5,
+        l2_reg_embedding=1e-5,
+        l2_reg_dnn=1e-3,
+        task='regression',
+        device='cpu',
+        gpus=None
+    ):
+        super().__init__(
+            linear_feature_columns,
+            dnn_feature_columns,
+            l2_reg_linear=l2_reg_linear,
+            l2_reg_embedding=l2_reg_embedding,
+            task=task,
+            device=device,
+            gpus=gpus
+        )
+        self.embed_dim = self.embedding_size
+        self.sparse_feats = [f for f in dnn_feature_columns if isinstance(f, SparseFeat)]
+        self.dense_feats  = [f for f in dnn_feature_columns if isinstance(f, DenseFeat)]
+        self.num_fields   = len(self.sparse_feats) + len(self.dense_feats)
+        # CLS token + positional
+        self.cls_token = nn.Parameter(torch.zeros(1, 1, self.embed_dim))
+        self.pos_enc = PositionalEncoding(self.num_fields+1, self.embed_dim)
+        # Attention
+        self.attn1 = MultiHeadSelfAttention(self.embed_dim, num_heads, dropout=dnn_dropout)
+        self.attn2 = MultiHeadSelfAttention(self.embed_dim, num_heads, dropout=dnn_dropout)
+        # Cross-attn for CLS
+        self.cross_attn = nn.MultiheadAttention(self.embed_dim, num_heads, dropout=dnn_dropout, batch_first=True)
+        self.cross_norm = nn.LayerNorm(self.embed_dim)
+        # Dense projection
+        if self.dense_feats:
+            self.dense_proj = nn.Linear(len(self.dense_feats), len(self.dense_feats)*self.embed_dim)
         else:
-            self.dense_projection = None
-
-        # DNN Layer
-        dnn_input_dim = self.att_embedding_size * (len(self.sparse_feature_columns) + len(self.dense_feature_columns))
-        if len(dnn_hidden_units) > 0:
-            dnn_layers = []
-            input_dim = dnn_input_dim
-            for i, unit in enumerate(dnn_hidden_units):
-                dnn_layers.append(('linear{}'.format(i), nn.Linear(input_dim, unit)))
-                dnn_layers.append(('batchnorm{}'.format(i), nn.BatchNorm1d(unit)))
-                dnn_layers.append(('activation{}'.format(i), nn.ReLU()))
-                if dnn_dropout > 0:
-                    dnn_layers.append(('dropout{}'.format(i), nn.Dropout(p=dnn_dropout)))
-                input_dim = unit
-            self.dnn = nn.Sequential(OrderedDict(dnn_layers))
-            self.dnn_linear = nn.Linear(input_dim, 1)
-            self.add_regularization_weight(
-                filter(lambda x: 'weight' in x[0] and 'bn' not in x[0], self.dnn.named_parameters()),
-                l2=l2_reg_dnn)
-            self.add_regularization_weight(self.dnn_linear.weight, l2=l2_reg_dnn)
-        else:
-            self.dnn = None
-
-        self.out = PredictionLayer(task)
+            self.dense_proj = None
+        # Cross network on CLS
+        self.cross_net = CrossNetwork(self.embed_dim, num_layers=2)
+        # DNN head
+        dnn_input = self.embed_dim
+        layers = OrderedDict()
+        input_dim = dnn_input
+        for i, h in enumerate(dnn_hidden_units):
+            layers[f'linear{i}'] = nn.Linear(input_dim, h)
+            layers[f'norm{i}']   = nn.LayerNorm(h)
+            layers[f'act{i}']    = nn.ReLU()
+            layers[f'drop{i}']   = nn.Dropout(dnn_dropout)
+            input_dim = h
+        self.dnn = nn.Sequential(layers)
+        self.dnn_out = nn.Linear(input_dim, 1)
+        self.prediction = PredictionLayer(task)
+        self.add_regularization_weight(self.dnn_out.weight, l2=l2_reg_dnn)
         self.to(device)
 
     def forward(self, X):
-        # Linear Part
         linear_logit = self.linear_model(X)
-
-        # Embedding Layer
-        sparse_embedding_list, dense_value_list = self.input_from_feature_columns(X, self.dnn_feature_columns, self.embedding_dict)
-
-        # Process Sparse Embeddings
-        sparse_embedding_list = [emb.squeeze(1) for emb in sparse_embedding_list]
-        sparse_embeddings = torch.stack(sparse_embedding_list, dim=1)  # Shape: (batch_size, num_sparse_features, embed_dim)
-
-        # Process Dense Features
-        if len(dense_value_list) > 0:
-            dense_values = torch.cat(dense_value_list, dim=1)  # Shape: (batch_size, num_dense_features)
-            # Project dense features into embedding space
-            projected_dense = self.dense_projection(dense_values)  # Shape: (batch_size, num_dense_features * embed_dim)
-            batch_size = projected_dense.size(0)
-            num_dense_features = len(self.dense_feature_columns)
-            projected_dense = projected_dense.view(batch_size, num_dense_features, self.att_embedding_size)  # Shape: (batch_size, num_dense_features, embed_dim)
-            # Combine Sparse and Dense Embeddings
-            embeddings = torch.cat([sparse_embeddings, projected_dense], dim=1)  # Shape: (batch_size, num_fields, embed_dim)
-        else:
-            embeddings = sparse_embeddings
-
-        # Multi-Head Attention
-        attn_output = self.multihead_attention(embeddings)  # Shape: (batch_size, num_fields, embed_dim)
-
-        # Flatten the attention output
-        attn_output_flat = attn_output.contiguous().view(attn_output.size(0), -1)  # Shape: (batch_size, num_fields * embed_dim)
-
-
-        if self.dnn is not None:
-            dnn_input = attn_output_flat
-            dnn_output = self.dnn(dnn_input)
-            dnn_logit = self.dnn_linear(dnn_output)
-            logit = linear_logit + dnn_logit
-        else:
-            logit = linear_logit
-
-        y_pred = self.out(logit)
-        return y_pred
+        sparse_embs, dense_vals = self.input_from_feature_columns(X, self.dnn_feature_columns, self.embedding_dict)
+        fields = [e.squeeze(1).unsqueeze(1) for e in sparse_embs]
+        if dense_vals:
+            dv = torch.cat(dense_vals, dim=1)
+            proj = self.dense_proj(dv).view(-1, len(self.dense_feats), self.embed_dim)
+            fields.append(proj)
+        emb = torch.cat(fields, dim=1)
+        bs = emb.size(0)
+        cls = self.cls_token.expand(bs, -1, -1)
+        emb = torch.cat([cls, emb], dim=1)
+        emb = self.pos_enc(emb)
+        out = self.attn1(emb)
+        out = self.attn2(out)
+        cls_q = out[:, :1, :]
+        cross, _ = self.cross_attn(cls_q, out, out)
+        cls_upd = self.cross_norm(cls_q + cross)
+        feat = cls_upd.squeeze(1)
+        # cross network enhancement
+        feat = self.cross_net(feat)
+        x = self.dnn(feat)
+        dnn_logit = self.dnn_out(x)
+        logit = linear_logit + dnn_logit
+        return self.prediction(logit)
