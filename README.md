@@ -29,10 +29,15 @@ Our model leverages **multi-head attention** to integrate multiple criteria and 
 ## Citation
 If you use this work, please cite:
 ```
-@article{your_paper,
-  title={Integrating Context and Criteria: A Multi-Head Attention-Based Approach for Multi-Criteria Group Recommender Systems},
-  author={Ngoc Luyen Le, Marie-Hélène Abel},
-  year={2025}
+@article{le2025integrating,
+  title={Integrating context and criteria: a multi-head attention-based approach for multi-criteria group recommender systems},
+  author={Le, Ngoc Luyen and Abel, Marie-H{\'e}l{\`e}ne},
+  journal={World Wide Web},
+  volume={28},
+  number={4},
+  pages={50},
+  year={2025},
+  publisher={Springer}
 }
 ```
 
